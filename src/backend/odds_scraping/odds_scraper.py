@@ -1,32 +1,31 @@
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-from datetime import datetime
 import json
-import csv
+from datetime import datetime
+
+import pandas as pd
+
 
 class OddsScraper:
     """Scrapes NBA odds from ESPN and other sportsbooks"""
-    
+
     def __init__(self, config_file='config.json'):
         """Initialize the odds scraper"""
         self.config = self.load_config(config_file)
         self.scraped_odds = []
-        self.timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        
+        self.timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
     def load_config(self, config_file):
         """Load configuration from JSON file"""
         try:
-            with open(config_file, 'r') as f:
+            with open(config_file) as f:
                 return json.load(f)
         except FileNotFoundError:
-            print(f"Config file not found: {config_file}")
+            print(f'Config file not found: {config_file}')
             return {}
-    
+
     def scrape_espn_odds(self):
         """Scrape NBA odds from ESPN"""
-        print("Scraping ESPN odds...")
-        
+        print('Scraping ESPN odds...')
+
         # Sample NBA odds data for 2025-26 season
         espn_odds = [
             {
@@ -37,7 +36,7 @@ class OddsScraper:
                 'moneyline': -180,
                 'spread': -7.5,
                 'over_under': 214.5,
-                'sportsbook': 'ESPN'
+                'sportsbook': 'ESPN',
             },
             {
                 'game_id': 2,
@@ -47,7 +46,7 @@ class OddsScraper:
                 'moneyline': 150,
                 'spread': 4.5,
                 'over_under': 223.5,
-                'sportsbook': 'ESPN'
+                'sportsbook': 'ESPN',
             },
             {
                 'game_id': 3,
@@ -57,7 +56,7 @@ class OddsScraper:
                 'moneyline': 150,
                 'spread': 7.5,
                 'over_under': 214.5,
-                'sportsbook': 'ESPN'
+                'sportsbook': 'ESPN',
             },
             {
                 'game_id': 4,
@@ -67,16 +66,16 @@ class OddsScraper:
                 'moneyline': -130,
                 'spread': -4.5,
                 'over_under': 223.5,
-                'sportsbook': 'ESPN'
-            }
+                'sportsbook': 'ESPN',
+            },
         ]
-        
+
         return espn_odds
-    
+
     def scrape_draftkings_odds(self):
         """Scrape NBA odds from DraftKings"""
-        print("Scraping DraftKings odds...")
-        
+        print('Scraping DraftKings odds...')
+
         # Sample DraftKings odds (slightly different lines)
         dk_odds = [
             {
@@ -87,7 +86,7 @@ class OddsScraper:
                 'moneyline': -175,
                 'spread': -7.0,
                 'over_under': 214.0,
-                'sportsbook': 'DraftKings'
+                'sportsbook': 'DraftKings',
             },
             {
                 'game_id': 2,
@@ -97,7 +96,7 @@ class OddsScraper:
                 'moneyline': 155,
                 'spread': 4.0,
                 'over_under': 223.0,
-                'sportsbook': 'DraftKings'
+                'sportsbook': 'DraftKings',
             },
             {
                 'game_id': 3,
@@ -107,7 +106,7 @@ class OddsScraper:
                 'moneyline': 155,
                 'spread': 7.0,
                 'over_under': 214.0,
-                'sportsbook': 'DraftKings'
+                'sportsbook': 'DraftKings',
             },
             {
                 'game_id': 4,
@@ -117,16 +116,16 @@ class OddsScraper:
                 'moneyline': -125,
                 'spread': -4.0,
                 'over_under': 223.0,
-                'sportsbook': 'DraftKings'
-            }
+                'sportsbook': 'DraftKings',
+            },
         ]
-        
+
         return dk_odds
-    
+
     def scrape_fanduel_odds(self):
         """Scrape NBA odds from FanDuel"""
-        print("Scraping FanDuel odds...")
-        
+        print('Scraping FanDuel odds...')
+
         # Sample FanDuel odds
         fanduel_odds = [
             {
@@ -137,7 +136,7 @@ class OddsScraper:
                 'moneyline': -178,
                 'spread': -7.0,
                 'over_under': 214.5,
-                'sportsbook': 'FanDuel'
+                'sportsbook': 'FanDuel',
             },
             {
                 'game_id': 2,
@@ -147,7 +146,7 @@ class OddsScraper:
                 'moneyline': 152,
                 'spread': 4.5,
                 'over_under': 223.5,
-                'sportsbook': 'FanDuel'
+                'sportsbook': 'FanDuel',
             },
             {
                 'game_id': 3,
@@ -157,7 +156,7 @@ class OddsScraper:
                 'moneyline': 152,
                 'spread': 7.0,
                 'over_under': 214.5,
-                'sportsbook': 'FanDuel'
+                'sportsbook': 'FanDuel',
             },
             {
                 'game_id': 4,
@@ -167,35 +166,36 @@ class OddsScraper:
                 'moneyline': -128,
                 'spread': -4.5,
                 'over_under': 223.5,
-                'sportsbook': 'FanDuel'
-            }
+                'sportsbook': 'FanDuel',
+            },
         ]
-        
+
         return fanduel_odds
-    
+
     def get_all_odds(self):
         """Get odds from all enabled sportsbooks"""
         all_odds = []
-        
+
         if self.config['sportsbooks']['espn']['enabled']:
             all_odds.extend(self.scrape_espn_odds())
-        
+
         if self.config['sportsbooks']['draftkings']['enabled']:
             all_odds.extend(self.scrape_draftkings_odds())
-        
+
         if self.config['sportsbooks']['fanduel']['enabled']:
             all_odds.extend(self.scrape_fanduel_odds())
-        
+
+        self.scraped_odds = all_odds
         return all_odds
-    
+
     def export_to_csv(self, filename='data/sample_odds_data.csv'):
         """Export scraped odds to CSV file"""
         if not self.scraped_odds:
-            print("No odds to export. Run get_all_odds() first.")
+            print('No odds to export. Run get_all_odds() first.')
             return
-        
+
         df = pd.DataFrame(self.scraped_odds)
         df.to_csv(filename, index=False)
-        print(f"✓ Odds exported to {filename}")
-        print(f"  Total records: {len(df)}")
-        print(f"  Sportsbooks: {df['sportsbook'].unique().tolist()}")
+        print(f'[OK] Odds exported to {filename}')
+        print(f'  Total records: {len(df)}')
+        print(f'  Sportsbooks: {df["sportsbook"].unique().tolist()}')

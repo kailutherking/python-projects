@@ -1,0 +1,4139 @@
+{
+  "sports": [
+    {
+      "id": "40",
+      "uid": "s:40",
+      "guid": "cd70a58e-a830-330c-93ed-52360b51b632",
+      "name": "Basketball",
+      "slug": "basketball",
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/guid/cd70a58e-a830-330c-93ed-52360b51b632/logos/default-dark.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "leagues": [
+        {
+          "id": "46",
+          "uid": "s:40~l:46",
+          "name": "National Basketball Association",
+          "abbreviation": "NBA",
+          "shortName": "NBA",
+          "slug": "nba",
+          "tag": "nba",
+          "isTournament": false,
+          "smartdates": [
+            "2026-04-30T07:00Z",
+            "2026-05-01T07:00Z",
+            "2026-05-02T07:00Z"
+          ],
+          "events": [
+            {
+              "id": "401869417",
+              "uid": "s:40~l:46~e:401869417~c:401869417",
+              "guid": "d8f3beba-220a-3436-8a4c-2cd35e8ebc57",
+              "date": "2026-05-01T23:00:00Z",
+              "timeValid": true,
+              "recent": false,
+              "name": "Detroit Pistons at Orlando Magic",
+              "shortName": "DET @ ORL",
+              "seriesSummary": "Series tied 3-3",
+              "competitionType": {
+                "slug": "divisional-round",
+                "abbreviation": "DIV",
+                "text": "Divisional Round"
+              },
+              "notes": [
+                {
+                  "text": "East 1st Round - Game 6",
+                  "headline": "East 1st Round - Game 6",
+                  "type": "event"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "summary",
+                    "desktop",
+                    "event"
+                  ],
+                  "href": "https://www.espn.com/nba/game/_/gameId/401869417/pistons-magic",
+                  "text": "Gamecast"
+                },
+                {
+                  "rel": [
+                    "boxscore",
+                    "desktop",
+                    "event"
+                  ],
+                  "href": "https://www.espn.com/nba/boxscore/_/gameId/401869417",
+                  "text": "Box Score"
+                }
+              ],
+              "gamecastAvailable": true,
+              "playByPlayAvailable": true,
+              "commentaryAvailable": false,
+              "wallclockAvailable": true,
+              "fauxcastAvailable": true,
+              "onWatch": false,
+              "competitionId": "401869417",
+              "location": "Amway Center",
+              "season": 2026,
+              "seasonStartDate": "2025-10-01T07:00:00Z",
+              "seasonEndDate": "2026-06-27T06:59:00Z",
+              "seasonType": "3",
+              "seasonTypeHasGroups": false,
+              "group": {
+                "groupId": "3",
+                "name": "Postseason",
+                "abbreviation": "post",
+                "shortName": "post"
+              },
+              "week": 25,
+              "weekText": "Week 25",
+              "link": "https://www.espn.com/nba/game/_/gameId/401869417/pistons-magic",
+              "status": "post",
+              "summary": "Final",
+              "period": 4,
+              "clock": "12:00",
+              "note": "East 1st Round - Game 6",
+              "broadcasts": [
+                {
+                  "typeId": 4,
+                  "priority": 1,
+                  "type": "Streaming",
+                  "isNational": true,
+                  "broadcasterId": 763,
+                  "broadcastId": 763,
+                  "name": "Prime Video",
+                  "shortName": "Prime Video",
+                  "callLetters": "Prime Video",
+                  "station": "Prime Video",
+                  "lang": "en",
+                  "region": "us",
+                  "slug": "prime-video"
+                }
+              ],
+              "broadcast": "Prime Video",
+              "odds": {
+                "details": "DET -3.5",
+                "overUnder": 210.5,
+                "spread": 3.5,
+                "overOdds": -115,
+                "underOdds": -105,
+                "provider": {
+                  "id": "100",
+                  "name": "DraftKings",
+                  "priority": 1,
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                      "rel": [
+                        "light"
+                      ]
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                      "rel": [
+                        "dark"
+                      ]
+                    }
+                  ]
+                },
+                "home": {
+                  "moneyLine": 136
+                },
+                "away": {
+                  "moneyLine": -162
+                },
+                "awayTeamOdds": {
+                  "favorite": true,
+                  "favoriteAtOpen": true,
+                  "underdog": false,
+                  "moneyLine": -162,
+                  "spreadOdds": -105,
+                  "team": {
+                    "id": "8",
+                    "abbreviation": "DET",
+                    "displayName": "Detroit Pistons",
+                    "name": "Pistons"
+                  }
+                },
+                "homeTeamOdds": {
+                  "favorite": false,
+                  "favoriteAtOpen": false,
+                  "underdog": false,
+                  "moneyLine": 136,
+                  "spreadOdds": -115,
+                  "team": {
+                    "id": "19",
+                    "abbreviation": "ORL",
+                    "displayName": "Orlando Magic",
+                    "name": "Magic"
+                  }
+                },
+                "links": [
+                  {
+                    "language": "en-US",
+                    "rel": [
+                      "game",
+                      "desktop",
+                      "bets"
+                    ],
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34072446",
+                    "text": "Game",
+                    "shortText": "Game",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "pointSpread": {
+                  "displayName": "Spread",
+                  "shortDisplayName": "Spread",
+                  "home": {
+                    "open": {
+                      "line": "+3.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "+3.5",
+                      "odds": "-115"
+                    }
+                  },
+                  "away": {
+                    "open": {
+                      "line": "-3.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "-3.5",
+                      "odds": "-105"
+                    }
+                  }
+                },
+                "moneyline": {
+                  "displayName": "Moneyline",
+                  "shortDisplayName": "ML",
+                  "home": {
+                    "open": {
+                      "odds": "+136"
+                    },
+                    "close": {
+                      "odds": "+136"
+                    }
+                  },
+                  "away": {
+                    "open": {
+                      "odds": "-162"
+                    },
+                    "close": {
+                      "odds": "-162"
+                    }
+                  }
+                },
+                "total": {
+                  "displayName": "Total",
+                  "shortDisplayName": "Total",
+                  "over": {
+                    "open": {
+                      "line": "o211.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "o210.5",
+                      "odds": "-115"
+                    }
+                  },
+                  "under": {
+                    "open": {
+                      "line": "u211.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "u210.5",
+                      "odds": "-105"
+                    }
+                  }
+                },
+                "header": {
+                  "logo": {
+                    "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+                    "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+                    "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+                    "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+                  },
+                  "text": "Game Odds"
+                }
+              },
+              "fullStatus": {
+                "clock": 720.0,
+                "displayClock": "12:00",
+                "period": 4,
+                "displayPeriod": "4th",
+                "type": {
+                  "id": "3",
+                  "name": "STATUS_FINAL",
+                  "state": "post",
+                  "completed": true,
+                  "description": "Final",
+                  "detail": "Final",
+                  "shortDetail": "Final"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "8",
+                  "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+                  "uid": "s:40~l:46~t:8",
+                  "type": "team",
+                  "order": 1,
+                  "homeAway": "away",
+                  "winner": true,
+                  "displayName": "Detroit Pistons",
+                  "name": "Pistons",
+                  "abbreviation": "DET",
+                  "location": "Detroit",
+                  "color": "1d428a",
+                  "alternateColor": "c8102e",
+                  "score": "93",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
+                      "text": "Clubhouse",
+                      "shortText": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/roster/_/name/det/detroit-pistons",
+                      "text": "Roster",
+                      "shortText": "Roster",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/stats/_/name/det/detroit-pistons",
+                      "text": "Statistics",
+                      "shortText": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/det",
+                      "text": "Schedule",
+                      "shortText": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "photos",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/photos/_/name/det",
+                      "text": "photos",
+                      "shortText": "photos",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "draftpicks",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/draft/teams/_/name/det/detroit-pistons",
+                      "text": "Draft Picks",
+                      "shortText": "Draft Picks",
+                      "isExternal": false,
+                      "isPremium": true,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "transactions",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/transactions/_/name/det",
+                      "text": "Transactions",
+                      "shortText": "Transactions",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "injuries",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/injuries/_/name/det",
+                      "text": "Injuries",
+                      "shortText": "Injuries",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "depthchart",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/depth/_/name/det",
+                      "text": "Depth Chart",
+                      "shortText": "Depth Chart",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "record": "60-22",
+                  "records": [],
+                  "group": "2",
+                  "recordStats": {
+                    "wins": {
+                      "value": 60.0
+                    },
+                    "losses": {
+                      "value": 22.0
+                    },
+                    "ties": {
+                      "value": 0.0
+                    },
+                    "OTWins": {
+                      "value": 0.0
+                    },
+                    "OTLosses": {
+                      "value": 0.0
+                    },
+                    "points": {
+                      "value": 19.0
+                    },
+                    "pointsFor": {
+                      "value": 9657.0
+                    },
+                    "pointsAgainst": {
+                      "value": 8988.0
+                    },
+                    "avgPointsFor": {
+                      "value": 117.76829528808594
+                    },
+                    "avgPointsAgainst": {
+                      "value": 109.60975646972656
+                    },
+                    "gamesPlayed": {
+                      "value": 82.0
+                    },
+                    "winPercent": {
+                      "value": 0.7317073345184326
+                    },
+                    "leagueWinPercent": {
+                      "value": 0.75
+                    },
+                    "divisionWins": {
+                      "value": 12.0
+                    },
+                    "divisionLosses": {
+                      "value": 4.0
+                    },
+                    "divisionTies": {
+                      "value": 0.0
+                    },
+                    "divisionWinPercent": {
+                      "value": 0.75
+                    },
+                    "streak": {
+                      "value": 3.0
+                    },
+                    "playoffSeed": {
+                      "value": 1.0
+                    },
+                    "gamesBehind": {
+                      "value": 0.0
+                    },
+                    "clincher": {
+                      "value": 3.0
+                    },
+                    "conferenceWins": {
+                      "value": 39.0
+                    },
+                    "conferenceLosses": {
+                      "value": 13.0
+                    },
+                    "conferenceTies": {
+                      "value": 0.0
+                    },
+                    "homeWins": {
+                      "value": 31.0
+                    },
+                    "homeLosses": {
+                      "value": 9.0
+                    },
+                    "homeTies": {
+                      "value": 0.0
+                    },
+                    "roadWins": {
+                      "value": 28.0
+                    },
+                    "roadLosses": {
+                      "value": 13.0
+                    },
+                    "roadTies": {
+                      "value": 0.0
+                    },
+                    "gamesAhead": {
+                      "value": 43.0
+                    }
+                  },
+                  "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+                  "logoDark": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png",
+                  "seriesRecord": "3-3"
+                },
+                {
+                  "id": "19",
+                  "guid": "74c23102-8c27-c8e6-ec1b-8a8fd4d42554",
+                  "uid": "s:40~l:46~t:19",
+                  "type": "team",
+                  "order": 0,
+                  "homeAway": "home",
+                  "winner": false,
+                  "displayName": "Orlando Magic",
+                  "name": "Magic",
+                  "abbreviation": "ORL",
+                  "location": "Orlando",
+                  "color": "0150b5",
+                  "alternateColor": "9ca0a3",
+                  "score": "79",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic",
+                      "text": "Clubhouse",
+                      "shortText": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/roster/_/name/orl/orlando-magic",
+                      "text": "Roster",
+                      "shortText": "Roster",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/stats/_/name/orl/orlando-magic",
+                      "text": "Statistics",
+                      "shortText": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/orl",
+                      "text": "Schedule",
+                      "shortText": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "photos",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/photos/_/name/orl",
+                      "text": "photos",
+                      "shortText": "photos",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "draftpicks",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/draft/teams/_/name/orl/orlando-magic",
+                      "text": "Draft Picks",
+                      "shortText": "Draft Picks",
+                      "isExternal": false,
+                      "isPremium": true,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "transactions",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/transactions/_/name/orl",
+                      "text": "Transactions",
+                      "shortText": "Transactions",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "injuries",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/injuries/_/name/orl",
+                      "text": "Injuries",
+                      "shortText": "Injuries",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "depthchart",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/depth/_/name/orl",
+                      "text": "Depth Chart",
+                      "shortText": "Depth Chart",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "record": "45-37",
+                  "records": [],
+                  "group": "9",
+                  "recordStats": {
+                    "wins": {
+                      "value": 45.0
+                    },
+                    "losses": {
+                      "value": 37.0
+                    },
+                    "ties": {
+                      "value": 0.0
+                    },
+                    "OTWins": {
+                      "value": 0.0
+                    },
+                    "OTLosses": {
+                      "value": 0.0
+                    },
+                    "points": {
+                      "value": 4.0
+                    },
+                    "pointsFor": {
+                      "value": 9491.0
+                    },
+                    "pointsAgainst": {
+                      "value": 9439.0
+                    },
+                    "avgPointsFor": {
+                      "value": 115.74390411376953
+                    },
+                    "avgPointsAgainst": {
+                      "value": 115.10975646972656
+                    },
+                    "gamesPlayed": {
+                      "value": 82.0
+                    },
+                    "winPercent": {
+                      "value": 0.5487805008888245
+                    },
+                    "leagueWinPercent": {
+                      "value": 0.5
+                    },
+                    "divisionWins": {
+                      "value": 9.0
+                    },
+                    "divisionLosses": {
+                      "value": 8.0
+                    },
+                    "divisionTies": {
+                      "value": 0.0
+                    },
+                    "divisionWinPercent": {
+                      "value": 0.529411792755127
+                    },
+                    "streak": {
+                      "value": -1.0
+                    },
+                    "playoffSeed": {
+                      "value": 8.0
+                    },
+                    "gamesBehind": {
+                      "value": 15.0
+                    },
+                    "clincher": {
+                      "value": 7.0
+                    },
+                    "conferenceWins": {
+                      "value": 26.0
+                    },
+                    "conferenceLosses": {
+                      "value": 26.0
+                    },
+                    "conferenceTies": {
+                      "value": 0.0
+                    },
+                    "homeWins": {
+                      "value": 25.0
+                    },
+                    "homeLosses": {
+                      "value": 15.0
+                    },
+                    "homeTies": {
+                      "value": 0.0
+                    },
+                    "roadWins": {
+                      "value": 19.0
+                    },
+                    "roadLosses": {
+                      "value": 20.0
+                    },
+                    "roadTies": {
+                      "value": 0.0
+                    },
+                    "gamesAhead": {
+                      "value": 28.0
+                    }
+                  },
+                  "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+                  "logoDark": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/orl.png",
+                  "seriesRecord": "3-3"
+                }
+              ],
+              "neutralSite": false,
+              "onDisneyNetwork": false,
+              "video": {
+                "id": 48651463,
+                "dataSourceIdentifier": "af77df759a68c",
+                "cerebroId": "69f559652bd3e6350c83301f",
+                "pccId": "62a81848-b23e-4d13-a4cc-82e4619d34a4",
+                "source": "espn",
+                "headline": "Pistons erase 24-point deficit to stun Magic and force Game 7",
+                "shortHeadline": "Pistons erase 24-point deficit to stun Magic and force Game 7",
+                "caption": "The Pistons pull off an incredible 24-point comeback to defeat the Magic, who score the fewest points in a half in NBA playoff history.",
+                "title": "Pistons erase 24-point deficit to stun Magic and force Game 7",
+                "description": "The Pistons pull off an incredible 24-point comeback to defeat the Magic, who score the fewest points in a half in NBA playoff history.",
+                "shortDescription": "The Pistons pull off an incredible 24-point comeback to defeat the Magic, who score the fewest points in a half in NBA playoff history.",
+                "lastModified": "2026-05-02T01:58:09Z",
+                "originalPublishDate": "2026-05-02T01:54:45Z",
+                "premium": false,
+                "syndicatable": true,
+                "duration": 94,
+                "videoRatio": "16:9,9:16",
+                "timeRestrictions": {
+                  "embargoDate": "2026-05-02T01:54:37Z",
+                  "expirationDate": "2026-07-31T04:00:00Z"
+                },
+                "deviceRestrictions": {
+                  "type": "whitelist",
+                  "devices": [
+                    "settop",
+                    "tablet",
+                    "handset",
+                    "ipad",
+                    "desktop"
+                  ]
+                },
+                "geoRestrictions": {
+                  "type": "whitelist",
+                  "countries": [
+                    "PR",
+                    "HN",
+                    "PW",
+                    "PY",
+                    "HT",
+                    "IE",
+                    "AG",
+                    "ZA",
+                    "AI",
+                    "AM",
+                    "AO",
+                    "AR",
+                    "AS",
+                    "ZM",
+                    "RE",
+                    "AU",
+                    "AW",
+                    "ZW",
+                    "BB",
+                    "JM",
+                    "BF",
+                    "RW",
+                    "BI",
+                    "BJ",
+                    "BM",
+                    "BO",
+                    "BQ",
+                    "SC",
+                    "BR",
+                    "BS",
+                    "BW",
+                    "BZ",
+                    "SL",
+                    "KE",
+                    "SN",
+                    "SR",
+                    "SS",
+                    "CD",
+                    "ST",
+                    "KM",
+                    "SV",
+                    "KN",
+                    "CF",
+                    "CG",
+                    "SX",
+                    "CI",
+                    "SZ",
+                    "CL",
+                    "CM",
+                    "CO",
+                    "KY",
+                    "TC",
+                    "CR",
+                    "CU",
+                    "CV",
+                    "TG",
+                    "LC",
+                    "TT",
+                    "TZ",
+                    "LR",
+                    "LS",
+                    "DO",
+                    "UG",
+                    "UK",
+                    "UM",
+                    "MF",
+                    "MG",
+                    "MH",
+                    "EC",
+                    "US",
+                    "ML",
+                    "MP",
+                    "MQ",
+                    "UY",
+                    "MS",
+                    "MU",
+                    "MW",
+                    "MX",
+                    "ER",
+                    "MZ",
+                    "VC",
+                    "ET",
+                    "VE",
+                    "VG",
+                    "NA",
+                    "VI",
+                    "NE",
+                    "NG",
+                    "NI",
+                    "FJ",
+                    "FM",
+                    "NZ",
+                    "GA",
+                    "GB",
+                    "GD",
+                    "GF",
+                    "GH",
+                    "GM",
+                    "GN",
+                    "GP",
+                    "GQ",
+                    "GT",
+                    "GU",
+                    "GW",
+                    "PA",
+                    "GY",
+                    "PE",
+                    "PH"
+                  ]
+                },
+                "gameId": 401869417,
+                "plays": [
+                  {
+                    "id": 401869417232
+                  }
+                ],
+                "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7.jpg",
+                "images": [
+                  {
+                    "name": "Poster Image",
+                    "caption": "",
+                    "alt": "",
+                    "credit": "",
+                    "height": 324,
+                    "width": 576,
+                    "url": "https://media.video-cdn.espn.com/images/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7.jpg"
+                  }
+                ],
+                "posterImages": {
+                  "default": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7_default.jpg",
+                    "width": 576,
+                    "height": 324
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7.jpg"
+                  },
+                  "wide": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7_5x2.jpg"
+                  },
+                  "square": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7_1x1.jpg"
+                  },
+                  "vertical": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7_9x16.jpg"
+                  },
+                  "verticalFirstFrame": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/img/espn/9x16/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/thumb-1-w406-h720-f4.jpg"
+                  }
+                },
+                "links": {
+                  "web": {
+                    "href": "https://www.espn.com/video/clip?id=48651463",
+                    "self": {
+                      "href": "https://www.espn.com/video/clip?id=48651463",
+                      "dsi": {
+                        "href": "https://www.espn.com/video/clip?id=af77df759a68c"
+                      }
+                    }
+                  },
+                  "mobile": {
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7.mp4"
+                    },
+                    "alert": {
+                      "href": "https://m.espn.com/general/video/videoAlert?vid=48651463"
+                    },
+                    "streaming": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/62a81848-b23e-4d13-a4cc-82e4619d34a4/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48651463"
+                    },
+                    "progressiveDownload": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/62a81848-b23e-4d13-a4cc-82e4619d34a4/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48651463"
+                    }
+                  },
+                  "api": {
+                    "self": {
+                      "href": "https://content.core.api.espn.com/v1/video/clips/48651463"
+                    },
+                    "artwork": {
+                      "href": "https://artwork.api.espn.com/artwork/collections/media/62a81848-b23e-4d13-a4cc-82e4619d34a4"
+                    }
+                  },
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7_360p30_1464k.mp4",
+                    "mezzanine": {
+                      "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7.mp4"
+                    },
+                    "flash": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7.smil"
+                    },
+                    "hds": {
+                      "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7_rel.smil/manifest.f4m"
+                    },
+                    "HLS": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/playlist.m3u8",
+                      "HD": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/playlist.m3u8"
+                      },
+                      "cmaf": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/playlist.m3u8"
+                        }
+                      },
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/playlist.m3u8"
+                      },
+                      "shield": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/media/62a81848-b23e-4d13-a4cc-82e4619d34a4/asset"
+                      }
+                    },
+                    "HD": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7_720p30_2896k.mp4"
+                    },
+                    "full": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/f01e656c-7a26-4a3b-951d-b4c26b2afaf7/f01e656c-7a26-4a3b-951d-b4c26b2afaf7_360p30_1464k.mp4"
+                    }
+                  },
+                  "sportscenter": {
+                    "href": "sportscenter://x-callback-url/showVideo?videoID=48651463&videoDSI=af77df759a68c"
+                  }
+                },
+                "categories": [
+                  {
+                    "id": 190994,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:3157465",
+                    "guid": "36432468-246f-8e5e-4079-cf34dafef796",
+                    "description": "Duncan Robinson",
+                    "sportId": 46,
+                    "athleteId": 3157465,
+                    "athlete": {
+                      "id": 3157465,
+                      "description": "Duncan Robinson",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/3157465/duncan-robinson"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/3157465/duncan-robinson"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 4309,
+                    "type": "team",
+                    "uid": "s:40~l:46~t:19",
+                    "guid": "74c23102-8c27-c8e6-ec1b-8a8fd4d42554",
+                    "description": "Orlando Magic",
+                    "sportId": 46,
+                    "teamId": 19,
+                    "team": {
+                      "id": 19,
+                      "description": "Orlando Magic",
+                      "links": {
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+                          }
+                        },
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 4422,
+                    "type": "team",
+                    "uid": "s:40~l:46~t:8",
+                    "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+                    "description": "Detroit Pistons",
+                    "sportId": 46,
+                    "teamId": 8,
+                    "team": {
+                      "id": 8,
+                      "description": "Detroit Pistons",
+                      "links": {
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                          }
+                        },
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 457584,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:4066320",
+                    "guid": "10c8715d-6e1c-40de-59cb-625bf16ebbc7",
+                    "description": "Desmond Bane",
+                    "sportId": 46,
+                    "athleteId": 4066320,
+                    "athlete": {
+                      "id": 4066320,
+                      "description": "Desmond Bane",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4066320/desmond-bane"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4066320/desmond-bane"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 533664,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:4432573",
+                    "guid": "b121848a-30d3-3fad-b6ab-74bf04005533",
+                    "description": "Paolo Banchero",
+                    "sportId": 46,
+                    "athleteId": 4432573,
+                    "athlete": {
+                      "id": 4432573,
+                      "description": "Paolo Banchero",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 9577,
+                    "type": "league",
+                    "uid": "s:40~l:46",
+                    "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+                    "description": "NBA",
+                    "sportId": 46,
+                    "leagueId": 46,
+                    "league": {
+                      "id": 46,
+                      "description": "NBA",
+                      "abbreviation": "NBA",
+                      "links": {
+                        "web": {
+                          "leagues": {
+                            "href": "https://www.espn.com/nba/"
+                          }
+                        },
+                        "mobile": {
+                          "leagues": {
+                            "href": "https://www.espn.com/nba/"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 492478,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:4432166",
+                    "guid": "c28c6569-86f0-3c1e-bcab-b946fbc06ff6",
+                    "description": "Cade Cunningham",
+                    "sportId": 46,
+                    "athleteId": 4432166,
+                    "athlete": {
+                      "id": 4432166,
+                      "description": "Cade Cunningham",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 601968,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:4684742",
+                    "guid": "ee7a682c-a3e6-39eb-9bfa-2b7a84ae7e76",
+                    "description": "Ausar Thompson",
+                    "sportId": 46,
+                    "athleteId": 4684742,
+                    "athlete": {
+                      "id": 4684742,
+                      "description": "Ausar Thompson",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4684742/ausar-thompson"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4684742/ausar-thompson"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 409228,
+                    "type": "topic",
+                    "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
+                    "description": "fantasy",
+                    "sportId": 0,
+                    "topicId": 785
+                  },
+                  {
+                    "id": 191422,
+                    "type": "topic",
+                    "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
+                    "description": "nba highlight",
+                    "sportId": 0,
+                    "topicId": 707
+                  },
+                  {
+                    "id": 12025,
+                    "type": "league",
+                    "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+                    "description": "Fantasy NBA",
+                    "sportId": 0,
+                    "leagueId": 3090,
+                    "league": {
+                      "id": 3090,
+                      "description": "Fantasy NBA"
+                    }
+                  },
+                  {
+                    "id": 711821,
+                    "type": "editorialindicator",
+                    "guid": "f3e05446-8d07-3064-a239-c10c32884ea2",
+                    "description": "SC4U - Full Highlight"
+                  },
+                  {
+                    "id": 711824,
+                    "type": "editorialindicator",
+                    "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26",
+                    "description": "SC4U  - Eligible"
+                  },
+                  {
+                    "id": 664676,
+                    "type": "editorialindicator",
+                    "guid": "4d71b783-6916-3446-9c19-fab94dc60c1e",
+                    "description": "Big Boost"
+                  },
+                  {
+                    "type": "event",
+                    "uid": "s:40~l:46~e:401869417",
+                    "guid": "d8f3beba-220a-3436-8a4c-2cd35e8ebc57",
+                    "description": "Detroit Pistons @ Orlando Magic",
+                    "eventId": 401869417,
+                    "event": {
+                      "id": 401869417,
+                      "sport": "basketball",
+                      "league": "nba",
+                      "description": "Detroit Pistons @ Orlando Magic",
+                      "links": {
+                        "web": {
+                          "event": {
+                            "href": "https://www.espn.com/nba/game/_/gameId/401869417"
+                          }
+                        },
+                        "mobile": {
+                          "event": {
+                            "href": "https://www.espn.com/nba/game/_/gameId/401869417"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "36432468-246f-8e5e-4079-cf34dafef796"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "74c23102-8c27-c8e6-ec1b-8a8fd4d42554"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "10c8715d-6e1c-40de-59cb-625bf16ebbc7"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "b121848a-30d3-3fad-b6ab-74bf04005533"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "c28c6569-86f0-3c1e-bcab-b946fbc06ff6"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "ee7a682c-a3e6-39eb-9bfa-2b7a84ae7e76"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "f3e05446-8d07-3064-a239-c10c32884ea2"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "4d71b783-6916-3446-9c19-fab94dc60c1e"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "d8f3beba-220a-3436-8a4c-2cd35e8ebc57"
+                  }
+                ],
+                "ad": {
+                  "sport": "nba",
+                  "bundle": "nba_longform_highlights"
+                },
+                "tracking": {
+                  "sportName": "basketball",
+                  "leagueName": "NBA",
+                  "coverageType": "Final Game Highlight",
+                  "trackingName": "COM_NBA Highlight (Pistons erase 24-point deficit to stun Magic and force Game 7) 2026/05/01 ESHEET",
+                  "trackingId": "dm_20260501_NBA_detroit_pistons_vs_orlando_magic_game_highlights",
+                  "program": "NBA"
+                },
+                "contributingPartner": "wsc",
+                "contributingSystem": "wsc"
+              },
+              "appLinks": [
+                {
+                  "rel": [
+                    "summary",
+                    "sportscenter",
+                    "app",
+                    "event"
+                  ],
+                  "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401869417",
+                  "text": "Gamecast",
+                  "shortText": "Summary"
+                },
+                {
+                  "rel": [
+                    "boxscore",
+                    "sportscenter",
+                    "app",
+                    "event"
+                  ],
+                  "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401869417",
+                  "text": "Box Score",
+                  "shortText": "Box Score"
+                },
+                {
+                  "rel": [
+                    "gamecast",
+                    "sportscenter",
+                    "app",
+                    "event"
+                  ],
+                  "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401869417",
+                  "text": "Gamecast",
+                  "shortText": "Gamecast"
+                }
+              ]
+            },
+            {
+              "id": "401869381",
+              "uid": "s:40~l:46~e:401869381~c:401869381",
+              "guid": "8dcca175-082d-3739-ac43-207d46c55356",
+              "date": "2026-05-01T23:30:00Z",
+              "timeValid": true,
+              "recent": false,
+              "name": "Cleveland Cavaliers at Toronto Raptors",
+              "shortName": "CLE @ TOR",
+              "seriesSummary": "Series tied 3-3",
+              "competitionType": {
+                "slug": "divisional-round",
+                "abbreviation": "DIV",
+                "text": "Divisional Round"
+              },
+              "notes": [
+                {
+                  "text": "East 1st Round - Game 6",
+                  "headline": "East 1st Round - Game 6",
+                  "type": "event"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "summary",
+                    "desktop",
+                    "event"
+                  ],
+                  "href": "https://www.espn.com/nba/game/_/gameId/401869381/cavaliers-raptors",
+                  "text": "Gamecast"
+                },
+                {
+                  "rel": [
+                    "boxscore",
+                    "desktop",
+                    "event"
+                  ],
+                  "href": "https://www.espn.com/nba/boxscore/_/gameId/401869381",
+                  "text": "Box Score"
+                }
+              ],
+              "gamecastAvailable": true,
+              "playByPlayAvailable": true,
+              "commentaryAvailable": false,
+              "wallclockAvailable": true,
+              "fauxcastAvailable": true,
+              "onWatch": false,
+              "competitionId": "401869381",
+              "location": "Scotiabank Arena",
+              "season": 2026,
+              "seasonStartDate": "2025-10-01T07:00:00Z",
+              "seasonEndDate": "2026-06-27T06:59:00Z",
+              "seasonType": "3",
+              "seasonTypeHasGroups": false,
+              "group": {
+                "groupId": "3",
+                "name": "Postseason",
+                "abbreviation": "post",
+                "shortName": "post"
+              },
+              "week": 25,
+              "weekText": "Week 25",
+              "link": "https://www.espn.com/nba/game/_/gameId/401869381/cavaliers-raptors",
+              "status": "post",
+              "summary": "Final/OT",
+              "period": 5,
+              "clock": "5:00",
+              "note": "East 1st Round - Game 6",
+              "broadcasts": [
+                {
+                  "typeId": 4,
+                  "priority": 1,
+                  "type": "Streaming",
+                  "isNational": true,
+                  "broadcasterId": 763,
+                  "broadcastId": 763,
+                  "name": "Prime Video",
+                  "shortName": "Prime Video",
+                  "callLetters": "Prime Video",
+                  "station": "Prime Video",
+                  "lang": "en",
+                  "region": "us",
+                  "slug": "prime-video"
+                }
+              ],
+              "broadcast": "Prime Video",
+              "odds": {
+                "details": "CLE -4.5",
+                "overUnder": 218.5,
+                "spread": 4.5,
+                "overOdds": -112,
+                "underOdds": -108,
+                "provider": {
+                  "id": "100",
+                  "name": "DraftKings",
+                  "priority": 1,
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                      "rel": [
+                        "light"
+                      ]
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                      "rel": [
+                        "dark"
+                      ]
+                    }
+                  ]
+                },
+                "home": {
+                  "moneyLine": 164
+                },
+                "away": {
+                  "moneyLine": -198
+                },
+                "awayTeamOdds": {
+                  "favorite": true,
+                  "favoriteAtOpen": true,
+                  "underdog": false,
+                  "moneyLine": -198,
+                  "spreadOdds": -115,
+                  "team": {
+                    "id": "5",
+                    "abbreviation": "CLE",
+                    "displayName": "Cleveland Cavaliers",
+                    "name": "Cavaliers"
+                  }
+                },
+                "homeTeamOdds": {
+                  "favorite": false,
+                  "favoriteAtOpen": false,
+                  "underdog": false,
+                  "moneyLine": 164,
+                  "spreadOdds": -105,
+                  "team": {
+                    "id": "28",
+                    "abbreviation": "TOR",
+                    "displayName": "Toronto Raptors",
+                    "name": "Raptors"
+                  }
+                },
+                "links": [
+                  {
+                    "language": "en-US",
+                    "rel": [
+                      "game",
+                      "desktop",
+                      "bets"
+                    ],
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34072447",
+                    "text": "Game",
+                    "shortText": "Game",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "pointSpread": {
+                  "displayName": "Spread",
+                  "shortDisplayName": "Spread",
+                  "home": {
+                    "open": {
+                      "line": "+4.5",
+                      "odds": "-115"
+                    },
+                    "close": {
+                      "line": "+4.5",
+                      "odds": "-105"
+                    }
+                  },
+                  "away": {
+                    "open": {
+                      "line": "-4.5",
+                      "odds": "-105"
+                    },
+                    "close": {
+                      "line": "-4.5",
+                      "odds": "-115"
+                    }
+                  }
+                },
+                "moneyline": {
+                  "displayName": "Moneyline",
+                  "shortDisplayName": "ML",
+                  "home": {
+                    "open": {
+                      "odds": "+142"
+                    },
+                    "close": {
+                      "odds": "+164"
+                    }
+                  },
+                  "away": {
+                    "open": {
+                      "odds": "-170"
+                    },
+                    "close": {
+                      "odds": "-198"
+                    }
+                  }
+                },
+                "total": {
+                  "displayName": "Total",
+                  "shortDisplayName": "Total",
+                  "over": {
+                    "open": {
+                      "line": "o219.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "o218.5",
+                      "odds": "-112"
+                    }
+                  },
+                  "under": {
+                    "open": {
+                      "line": "u219.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "u218.5",
+                      "odds": "-108"
+                    }
+                  }
+                },
+                "header": {
+                  "logo": {
+                    "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+                    "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+                    "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+                    "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+                  },
+                  "text": "Game Odds"
+                }
+              },
+              "fullStatus": {
+                "clock": 300.0,
+                "displayClock": "5:00",
+                "period": 5,
+                "displayPeriod": "OT",
+                "type": {
+                  "id": "3",
+                  "name": "STATUS_FINAL",
+                  "state": "post",
+                  "completed": true,
+                  "description": "Final",
+                  "detail": "Final/OT",
+                  "shortDetail": "Final/OT",
+                  "altDetail": "OT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "5",
+                  "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b",
+                  "uid": "s:40~l:46~t:5",
+                  "type": "team",
+                  "order": 1,
+                  "homeAway": "away",
+                  "winner": false,
+                  "displayName": "Cleveland Cavaliers",
+                  "name": "Cavaliers",
+                  "abbreviation": "CLE",
+                  "location": "Cleveland",
+                  "color": "860038",
+                  "alternateColor": "bc945c",
+                  "score": "110",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers",
+                      "text": "Clubhouse",
+                      "shortText": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/roster/_/name/cle/cleveland-cavaliers",
+                      "text": "Roster",
+                      "shortText": "Roster",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/stats/_/name/cle/cleveland-cavaliers",
+                      "text": "Statistics",
+                      "shortText": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/cle",
+                      "text": "Schedule",
+                      "shortText": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "photos",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/photos/_/name/cle",
+                      "text": "photos",
+                      "shortText": "photos",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "draftpicks",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/draft/teams/_/name/cle/cleveland-cavaliers",
+                      "text": "Draft Picks",
+                      "shortText": "Draft Picks",
+                      "isExternal": false,
+                      "isPremium": true,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "transactions",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/transactions/_/name/cle",
+                      "text": "Transactions",
+                      "shortText": "Transactions",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "injuries",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/injuries/_/name/cle",
+                      "text": "Injuries",
+                      "shortText": "Injuries",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "depthchart",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/depth/_/name/cle",
+                      "text": "Depth Chart",
+                      "shortText": "Depth Chart",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "record": "52-30",
+                  "records": [],
+                  "group": "2",
+                  "recordStats": {
+                    "wins": {
+                      "value": 52.0
+                    },
+                    "losses": {
+                      "value": 30.0
+                    },
+                    "ties": {
+                      "value": 0.0
+                    },
+                    "OTWins": {
+                      "value": 0.0
+                    },
+                    "OTLosses": {
+                      "value": 0.0
+                    },
+                    "points": {
+                      "value": 11.0
+                    },
+                    "pointsFor": {
+                      "value": 9800.0
+                    },
+                    "pointsAgainst": {
+                      "value": 9464.0
+                    },
+                    "avgPointsFor": {
+                      "value": 119.51219177246094
+                    },
+                    "avgPointsAgainst": {
+                      "value": 115.41463470458984
+                    },
+                    "gamesPlayed": {
+                      "value": 82.0
+                    },
+                    "winPercent": {
+                      "value": 0.6341463327407837
+                    },
+                    "leagueWinPercent": {
+                      "value": 0.6346153616905212
+                    },
+                    "divisionWins": {
+                      "value": 11.0
+                    },
+                    "divisionLosses": {
+                      "value": 5.0
+                    },
+                    "divisionTies": {
+                      "value": 0.0
+                    },
+                    "divisionWinPercent": {
+                      "value": 0.6875
+                    },
+                    "streak": {
+                      "value": 1.0
+                    },
+                    "playoffSeed": {
+                      "value": 4.0
+                    },
+                    "gamesBehind": {
+                      "value": 8.0
+                    },
+                    "clincher": {
+                      "value": 1.0
+                    },
+                    "conferenceWins": {
+                      "value": 33.0
+                    },
+                    "conferenceLosses": {
+                      "value": 19.0
+                    },
+                    "conferenceTies": {
+                      "value": 0.0
+                    },
+                    "homeWins": {
+                      "value": 27.0
+                    },
+                    "homeLosses": {
+                      "value": 14.0
+                    },
+                    "homeTies": {
+                      "value": 0.0
+                    },
+                    "roadWins": {
+                      "value": 25.0
+                    },
+                    "roadLosses": {
+                      "value": 16.0
+                    },
+                    "roadTies": {
+                      "value": 0.0
+                    },
+                    "gamesAhead": {
+                      "value": 35.0
+                    }
+                  },
+                  "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+                  "logoDark": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/cle.png",
+                  "seriesRecord": "3-3"
+                },
+                {
+                  "id": "28",
+                  "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
+                  "uid": "s:40~l:46~t:28",
+                  "type": "team",
+                  "order": 0,
+                  "homeAway": "home",
+                  "winner": true,
+                  "displayName": "Toronto Raptors",
+                  "name": "Raptors",
+                  "abbreviation": "TOR",
+                  "location": "Toronto",
+                  "color": "d91244",
+                  "alternateColor": "000000",
+                  "score": "112",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors",
+                      "text": "Clubhouse",
+                      "shortText": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/roster/_/name/tor/toronto-raptors",
+                      "text": "Roster",
+                      "shortText": "Roster",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/stats/_/name/tor/toronto-raptors",
+                      "text": "Statistics",
+                      "shortText": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/tor",
+                      "text": "Schedule",
+                      "shortText": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "photos",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/photos/_/name/tor",
+                      "text": "photos",
+                      "shortText": "photos",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "draftpicks",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/draft/teams/_/name/tor/toronto-raptors",
+                      "text": "Draft Picks",
+                      "shortText": "Draft Picks",
+                      "isExternal": false,
+                      "isPremium": true,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "transactions",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/transactions/_/name/tor",
+                      "text": "Transactions",
+                      "shortText": "Transactions",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "injuries",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/injuries/_/name/tor",
+                      "text": "Injuries",
+                      "shortText": "Injuries",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "depthchart",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/depth/_/name/tor",
+                      "text": "Depth Chart",
+                      "shortText": "Depth Chart",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "record": "46-36",
+                  "records": [],
+                  "group": "1",
+                  "recordStats": {
+                    "wins": {
+                      "value": 46.0
+                    },
+                    "losses": {
+                      "value": 36.0
+                    },
+                    "ties": {
+                      "value": 0.0
+                    },
+                    "OTWins": {
+                      "value": 0.0
+                    },
+                    "OTLosses": {
+                      "value": 0.0
+                    },
+                    "points": {
+                      "value": 5.0
+                    },
+                    "pointsFor": {
+                      "value": 9400.0
+                    },
+                    "pointsAgainst": {
+                      "value": 9168.0
+                    },
+                    "avgPointsFor": {
+                      "value": 114.63414764404297
+                    },
+                    "avgPointsAgainst": {
+                      "value": 111.80487823486328
+                    },
+                    "gamesPlayed": {
+                      "value": 82.0
+                    },
+                    "winPercent": {
+                      "value": 0.5609756112098694
+                    },
+                    "leagueWinPercent": {
+                      "value": 0.6346153616905212
+                    },
+                    "divisionWins": {
+                      "value": 5.0
+                    },
+                    "divisionLosses": {
+                      "value": 12.0
+                    },
+                    "divisionTies": {
+                      "value": 0.0
+                    },
+                    "divisionWinPercent": {
+                      "value": 0.29411765933036804
+                    },
+                    "streak": {
+                      "value": 1.0
+                    },
+                    "playoffSeed": {
+                      "value": 5.0
+                    },
+                    "gamesBehind": {
+                      "value": 14.0
+                    },
+                    "clincher": {
+                      "value": 1.0
+                    },
+                    "conferenceWins": {
+                      "value": 33.0
+                    },
+                    "conferenceLosses": {
+                      "value": 19.0
+                    },
+                    "conferenceTies": {
+                      "value": 0.0
+                    },
+                    "homeWins": {
+                      "value": 24.0
+                    },
+                    "homeLosses": {
+                      "value": 17.0
+                    },
+                    "homeTies": {
+                      "value": 0.0
+                    },
+                    "roadWins": {
+                      "value": 22.0
+                    },
+                    "roadLosses": {
+                      "value": 19.0
+                    },
+                    "roadTies": {
+                      "value": 0.0
+                    },
+                    "gamesAhead": {
+                      "value": 29.0
+                    }
+                  },
+                  "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+                  "logoDark": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png",
+                  "seriesRecord": "3-3"
+                }
+              ],
+              "neutralSite": false,
+              "onDisneyNetwork": false,
+              "video": {
+                "id": 48652055,
+                "dataSourceIdentifier": "b76cf7068416b",
+                "cerebroId": "69f564dfa8bf55036d00a082",
+                "pccId": "113b1bc9-93af-4d9c-82be-912c67916e2d",
+                "source": "espn",
+                "headline": "Cleveland Cavaliers vs. Toronto Raptors: Game Highlights",
+                "shortHeadline": "Cleveland Cavaliers vs. Toronto Raptors: Game Highlights",
+                "caption": "Cleveland Cavaliers vs. Toronto Raptors: Game Highlights",
+                "title": "Cleveland Cavaliers vs. Toronto Raptors: Game Highlights",
+                "description": "Cleveland Cavaliers vs. Toronto Raptors: Game Highlights",
+                "shortDescription": "Cleveland Cavaliers vs. Toronto Raptors: Game Highlights",
+                "lastModified": "2026-05-02T02:46:36Z",
+                "originalPublishDate": "2026-05-02T02:43:43Z",
+                "premium": false,
+                "syndicatable": true,
+                "duration": 76,
+                "videoRatio": "16:9,9:16",
+                "timeRestrictions": {
+                  "embargoDate": "2026-05-02T02:43:34Z",
+                  "expirationDate": "2026-07-31T04:00:00Z"
+                },
+                "deviceRestrictions": {
+                  "type": "whitelist",
+                  "devices": [
+                    "settop",
+                    "tablet",
+                    "handset",
+                    "ipad",
+                    "desktop"
+                  ]
+                },
+                "geoRestrictions": {
+                  "type": "whitelist",
+                  "countries": [
+                    "PR",
+                    "HN",
+                    "PW",
+                    "PY",
+                    "HT",
+                    "IE",
+                    "AG",
+                    "ZA",
+                    "AI",
+                    "AM",
+                    "AO",
+                    "AR",
+                    "AS",
+                    "RE",
+                    "ZM",
+                    "AU",
+                    "AW",
+                    "ZW",
+                    "BB",
+                    "JM",
+                    "BF",
+                    "RW",
+                    "BI",
+                    "BJ",
+                    "BM",
+                    "BO",
+                    "BQ",
+                    "SC",
+                    "BR",
+                    "BS",
+                    "BW",
+                    "BZ",
+                    "SL",
+                    "KE",
+                    "SN",
+                    "SR",
+                    "SS",
+                    "ST",
+                    "CD",
+                    "KM",
+                    "SV",
+                    "CF",
+                    "KN",
+                    "CG",
+                    "SX",
+                    "CI",
+                    "SZ",
+                    "CL",
+                    "CM",
+                    "CO",
+                    "KY",
+                    "TC",
+                    "CR",
+                    "CU",
+                    "CV",
+                    "TG",
+                    "LC",
+                    "TT",
+                    "TZ",
+                    "LR",
+                    "LS",
+                    "DO",
+                    "UG",
+                    "UK",
+                    "UM",
+                    "MF",
+                    "MG",
+                    "MH",
+                    "EC",
+                    "US",
+                    "ML",
+                    "MP",
+                    "MQ",
+                    "UY",
+                    "MS",
+                    "MU",
+                    "MW",
+                    "MX",
+                    "ER",
+                    "VC",
+                    "MZ",
+                    "VE",
+                    "ET",
+                    "VG",
+                    "NA",
+                    "VI",
+                    "NE",
+                    "NG",
+                    "NI",
+                    "FJ",
+                    "FM",
+                    "NZ",
+                    "GA",
+                    "GB",
+                    "GD",
+                    "GF",
+                    "GH",
+                    "GM",
+                    "GN",
+                    "GP",
+                    "GQ",
+                    "GT",
+                    "GU",
+                    "GW",
+                    "PA",
+                    "GY",
+                    "PE",
+                    "PH"
+                  ]
+                },
+                "gameId": 401869381,
+                "plays": [
+                  {
+                    "id": 401869381661
+                  }
+                ],
+                "thumbnail": "https://a.espncdn.com/media/motion/2026/0501/3d51df6f155247818612c5e7a73b76db1365/3d51df6f155247818612c5e7a73b76db1365.jpg",
+                "images": [
+                  {
+                    "name": "Poster Image",
+                    "caption": "",
+                    "alt": "",
+                    "credit": "",
+                    "height": 324,
+                    "width": 576,
+                    "url": "https://media.video-cdn.espn.com/images/2026/0501/3d51df6f155247818612c5e7a73b76db1365/3d51df6f155247818612c5e7a73b76db1365.jpg"
+                  }
+                ],
+                "posterImages": {
+                  "default": {
+                    "href": "https://media.video-cdn.espn.com/motion/2026/0501/3d51df6f155247818612c5e7a73b76db1365/3d51df6f155247818612c5e7a73b76db1365_default.jpg",
+                    "width": 576,
+                    "height": 324
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/2026/0501/3d51df6f155247818612c5e7a73b76db1365/3d51df6f155247818612c5e7a73b76db1365.jpg"
+                  },
+                  "wide": {
+                    "href": "https://media.video-cdn.espn.com/motion/2026/0501/3d51df6f155247818612c5e7a73b76db1365/3d51df6f155247818612c5e7a73b76db1365_5x2.jpg"
+                  },
+                  "square": {
+                    "href": "https://media.video-cdn.espn.com/motion/2026/0501/3d51df6f155247818612c5e7a73b76db1365/3d51df6f155247818612c5e7a73b76db1365_1x1.jpg"
+                  },
+                  "vertical": {
+                    "href": "https://media.video-cdn.espn.com/motion/2026/0501/3d51df6f155247818612c5e7a73b76db1365/3d51df6f155247818612c5e7a73b76db1365_9x16.jpg"
+                  },
+                  "verticalFirstFrame": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/img/espn/9x16/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db/thumb-1-w406-h720-f4.jpg"
+                  }
+                },
+                "links": {
+                  "web": {
+                    "href": "https://www.espn.com/video/clip?id=48652055",
+                    "self": {
+                      "href": "https://www.espn.com/video/clip?id=48652055",
+                      "dsi": {
+                        "href": "https://www.espn.com/video/clip?id=b76cf7068416b"
+                      }
+                    }
+                  },
+                  "mobile": {
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db.mp4"
+                    },
+                    "alert": {
+                      "href": "https://m.espn.com/general/video/videoAlert?vid=48652055"
+                    },
+                    "streaming": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/113b1bc9-93af-4d9c-82be-912c67916e2d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48652055"
+                    },
+                    "progressiveDownload": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/113b1bc9-93af-4d9c-82be-912c67916e2d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48652055"
+                    }
+                  },
+                  "api": {
+                    "self": {
+                      "href": "https://content.core.api.espn.com/v1/video/clips/48652055"
+                    },
+                    "artwork": {
+                      "href": "https://artwork.api.espn.com/artwork/collections/media/113b1bc9-93af-4d9c-82be-912c67916e2d"
+                    }
+                  },
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db_360p30_1464k.mp4",
+                    "mezzanine": {
+                      "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db.mp4"
+                    },
+                    "flash": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db.smil"
+                    },
+                    "hds": {
+                      "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db_rel.smil/manifest.f4m"
+                    },
+                    "HLS": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db/playlist.m3u8",
+                      "HD": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db/playlist.m3u8"
+                      },
+                      "cmaf": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db/playlist.m3u8"
+                        }
+                      },
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db/playlist.m3u8"
+                      },
+                      "shield": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/media/113b1bc9-93af-4d9c-82be-912c67916e2d/asset"
+                      }
+                    },
+                    "HD": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db_720p30_2896k.mp4"
+                    },
+                    "full": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/3d51df6f-1552-4781-8612-c5e7a73b76db/3d51df6f-1552-4781-8612-c5e7a73b76db_360p30_1464k.mp4"
+                    }
+                  },
+                  "sportscenter": {
+                    "href": "sportscenter://x-callback-url/showVideo?videoID=48652055&videoDSI=b76cf7068416b"
+                  }
+                },
+                "categories": [
+                  {
+                    "id": 168848,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:3908809",
+                    "guid": "6482ece5-f903-92e2-ffdd-13901fdd3a49",
+                    "description": "Donovan Mitchell",
+                    "sportId": 46,
+                    "athleteId": 3908809,
+                    "athlete": {
+                      "id": 3908809,
+                      "description": "Donovan Mitchell",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 453349,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:4432241",
+                    "guid": "f5cf0cda-37c2-3a0c-b9c9-6c00e2b17c0d",
+                    "description": "Jamal Shead",
+                    "sportId": 46,
+                    "athleteId": 4432241,
+                    "athlete": {
+                      "id": 4432241,
+                      "description": "Jamal Shead",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4432241/jamal-shead"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4432241/jamal-shead"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 4469,
+                    "type": "team",
+                    "uid": "s:40~l:46~t:28",
+                    "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
+                    "description": "Toronto Raptors",
+                    "sportId": 46,
+                    "teamId": 28,
+                    "team": {
+                      "id": 28,
+                      "description": "Toronto Raptors",
+                      "links": {
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+                          }
+                        },
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 384275,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:4395625",
+                    "guid": "92d6ee44-1fcc-f058-5b21-9c8dc7d2efde",
+                    "description": "RJ Barrett",
+                    "sportId": 46,
+                    "athleteId": 4395625,
+                    "athlete": {
+                      "id": 4395625,
+                      "description": "RJ Barrett",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4395625/rj-barrett"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4395625/rj-barrett"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 492448,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:4432158",
+                    "guid": "27839f34-323e-31ce-9bfb-3708571bef5a",
+                    "description": "Evan Mobley",
+                    "sportId": 46,
+                    "athleteId": 4432158,
+                    "athlete": {
+                      "id": 4432158,
+                      "description": "Evan Mobley",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 4408,
+                    "type": "team",
+                    "uid": "s:40~l:46~t:5",
+                    "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b",
+                    "description": "Cleveland Cavaliers",
+                    "sportId": 46,
+                    "teamId": 5,
+                    "team": {
+                      "id": 5,
+                      "description": "Cleveland Cavaliers",
+                      "links": {
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+                          }
+                        },
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 9577,
+                    "type": "league",
+                    "uid": "s:40~l:46",
+                    "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+                    "description": "NBA",
+                    "sportId": 46,
+                    "leagueId": 46,
+                    "league": {
+                      "id": 46,
+                      "description": "NBA",
+                      "abbreviation": "NBA",
+                      "links": {
+                        "web": {
+                          "leagues": {
+                            "href": "https://www.espn.com/nba/"
+                          }
+                        },
+                        "mobile": {
+                          "leagues": {
+                            "href": "https://www.espn.com/nba/"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 409228,
+                    "type": "topic",
+                    "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
+                    "description": "fantasy",
+                    "sportId": 0,
+                    "topicId": 785
+                  },
+                  {
+                    "id": 191422,
+                    "type": "topic",
+                    "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
+                    "description": "nba highlight",
+                    "sportId": 0,
+                    "topicId": 707
+                  },
+                  {
+                    "id": 12025,
+                    "type": "league",
+                    "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+                    "description": "Fantasy NBA",
+                    "sportId": 0,
+                    "leagueId": 3090,
+                    "league": {
+                      "id": 3090,
+                      "description": "Fantasy NBA"
+                    }
+                  },
+                  {
+                    "id": 711821,
+                    "type": "editorialindicator",
+                    "guid": "f3e05446-8d07-3064-a239-c10c32884ea2",
+                    "description": "SC4U - Full Highlight"
+                  },
+                  {
+                    "id": 711824,
+                    "type": "editorialindicator",
+                    "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26",
+                    "description": "SC4U  - Eligible"
+                  },
+                  {
+                    "type": "event",
+                    "uid": "s:40~l:46~e:401869381",
+                    "guid": "8dcca175-082d-3739-ac43-207d46c55356",
+                    "description": "Cleveland Cavaliers @ Toronto Raptors",
+                    "eventId": 401869381,
+                    "event": {
+                      "id": 401869381,
+                      "sport": "basketball",
+                      "league": "nba",
+                      "description": "Cleveland Cavaliers @ Toronto Raptors",
+                      "links": {
+                        "web": {
+                          "event": {
+                            "href": "https://www.espn.com/nba/game/_/gameId/401869381"
+                          }
+                        },
+                        "mobile": {
+                          "event": {
+                            "href": "https://www.espn.com/nba/game/_/gameId/401869381"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "6482ece5-f903-92e2-ffdd-13901fdd3a49"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "f5cf0cda-37c2-3a0c-b9c9-6c00e2b17c0d"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "92d6ee44-1fcc-f058-5b21-9c8dc7d2efde"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "27839f34-323e-31ce-9bfb-3708571bef5a"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "f3e05446-8d07-3064-a239-c10c32884ea2"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "8dcca175-082d-3739-ac43-207d46c55356"
+                  }
+                ],
+                "ad": {
+                  "sport": "nba",
+                  "bundle": "nba_longform_highlights"
+                },
+                "tracking": {
+                  "sportName": "basketball",
+                  "leagueName": "NBA",
+                  "coverageType": "Final Game Highlight",
+                  "trackingName": "NBA_One-Play (Cleveland Cavaliers vs. Toronto Raptors: Game Highlights) 2026/05/01 ESHEET",
+                  "trackingId": "dm_20260501_NBA_cleveland_cavaliers_vs_toronto_raptors_game_highlights",
+                  "program": "NBA"
+                },
+                "contributingPartner": "wsc",
+                "contributingSystem": "wsc"
+              },
+              "appLinks": [
+                {
+                  "rel": [
+                    "summary",
+                    "sportscenter",
+                    "app",
+                    "event"
+                  ],
+                  "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401869381",
+                  "text": "Gamecast",
+                  "shortText": "Summary"
+                },
+                {
+                  "rel": [
+                    "boxscore",
+                    "sportscenter",
+                    "app",
+                    "event"
+                  ],
+                  "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401869381",
+                  "text": "Box Score",
+                  "shortText": "Box Score"
+                },
+                {
+                  "rel": [
+                    "gamecast",
+                    "sportscenter",
+                    "app",
+                    "event"
+                  ],
+                  "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401869381",
+                  "text": "Gamecast",
+                  "shortText": "Gamecast"
+                }
+              ]
+            },
+            {
+              "id": "401869409",
+              "uid": "s:40~l:46~e:401869409~c:401869409",
+              "guid": "490d2dc0-c21c-36e1-b29e-b91cbf91c333",
+              "date": "2026-05-02T01:30:00Z",
+              "timeValid": true,
+              "recent": false,
+              "name": "Los Angeles Lakers at Houston Rockets",
+              "shortName": "LAL @ HOU",
+              "seriesSummary": "LAL win series 4-2",
+              "competitionType": {
+                "slug": "divisional-round",
+                "abbreviation": "DIV",
+                "text": "Divisional Round"
+              },
+              "notes": [
+                {
+                  "text": "West 1st Round - Game 6",
+                  "headline": "West 1st Round - Game 6",
+                  "type": "event"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "summary",
+                    "desktop",
+                    "event"
+                  ],
+                  "href": "https://www.espn.com/nba/game/_/gameId/401869409/lakers-rockets",
+                  "text": "Gamecast"
+                },
+                {
+                  "rel": [
+                    "boxscore",
+                    "desktop",
+                    "event"
+                  ],
+                  "href": "https://www.espn.com/nba/boxscore/_/gameId/401869409",
+                  "text": "Box Score"
+                }
+              ],
+              "gamecastAvailable": true,
+              "playByPlayAvailable": true,
+              "commentaryAvailable": false,
+              "wallclockAvailable": true,
+              "fauxcastAvailable": true,
+              "onWatch": false,
+              "competitionId": "401869409",
+              "location": "Toyota Center",
+              "season": 2026,
+              "seasonStartDate": "2025-10-01T07:00:00Z",
+              "seasonEndDate": "2026-06-27T06:59:00Z",
+              "seasonType": "3",
+              "seasonTypeHasGroups": false,
+              "group": {
+                "groupId": "3",
+                "name": "Postseason",
+                "abbreviation": "post",
+                "shortName": "post"
+              },
+              "week": 25,
+              "weekText": "Week 25",
+              "link": "https://www.espn.com/nba/game/_/gameId/401869409/lakers-rockets",
+              "status": "post",
+              "summary": "Final",
+              "period": 4,
+              "clock": "12:00",
+              "note": "West 1st Round - Game 6",
+              "broadcasts": [
+                {
+                  "typeId": 4,
+                  "priority": 1,
+                  "type": "Streaming",
+                  "isNational": true,
+                  "broadcasterId": 763,
+                  "broadcastId": 763,
+                  "name": "Prime Video",
+                  "shortName": "Prime Video",
+                  "callLetters": "Prime Video",
+                  "station": "Prime Video",
+                  "lang": "en",
+                  "region": "us",
+                  "slug": "prime-video"
+                }
+              ],
+              "broadcast": "Prime Video",
+              "odds": {
+                "details": "HOU -5.5",
+                "overUnder": 203.5,
+                "spread": -5.5,
+                "overOdds": -112,
+                "underOdds": -108,
+                "provider": {
+                  "id": "100",
+                  "name": "DraftKings",
+                  "priority": 1,
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                      "rel": [
+                        "light"
+                      ]
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                      "rel": [
+                        "dark"
+                      ]
+                    }
+                  ]
+                },
+                "home": {
+                  "moneyLine": -192
+                },
+                "away": {
+                  "moneyLine": 160
+                },
+                "awayTeamOdds": {
+                  "favorite": false,
+                  "favoriteAtOpen": false,
+                  "underdog": true,
+                  "moneyLine": 160,
+                  "spreadOdds": -115,
+                  "team": {
+                    "id": "13",
+                    "abbreviation": "LAL",
+                    "displayName": "Los Angeles Lakers",
+                    "name": "Lakers"
+                  }
+                },
+                "homeTeamOdds": {
+                  "favorite": true,
+                  "favoriteAtOpen": true,
+                  "underdog": false,
+                  "moneyLine": -192,
+                  "spreadOdds": -105,
+                  "team": {
+                    "id": "10",
+                    "abbreviation": "HOU",
+                    "displayName": "Houston Rockets",
+                    "name": "Rockets"
+                  }
+                },
+                "links": [
+                  {
+                    "language": "en-US",
+                    "rel": [
+                      "game",
+                      "desktop",
+                      "bets"
+                    ],
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34072448",
+                    "text": "Game",
+                    "shortText": "Game",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "pointSpread": {
+                  "displayName": "Spread",
+                  "shortDisplayName": "Spread",
+                  "home": {
+                    "open": {
+                      "line": "-3.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "-5.5",
+                      "odds": "-105"
+                    }
+                  },
+                  "away": {
+                    "open": {
+                      "line": "+3.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "+5.5",
+                      "odds": "-115"
+                    }
+                  }
+                },
+                "moneyline": {
+                  "displayName": "Moneyline",
+                  "shortDisplayName": "ML",
+                  "home": {
+                    "open": {
+                      "odds": "-155"
+                    },
+                    "close": {
+                      "odds": "-192"
+                    }
+                  },
+                  "away": {
+                    "open": {
+                      "odds": "+130"
+                    },
+                    "close": {
+                      "odds": "+160"
+                    }
+                  }
+                },
+                "total": {
+                  "displayName": "Total",
+                  "shortDisplayName": "Total",
+                  "over": {
+                    "open": {
+                      "line": "o207.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "o203.5",
+                      "odds": "-112"
+                    }
+                  },
+                  "under": {
+                    "open": {
+                      "line": "u207.5",
+                      "odds": "-110"
+                    },
+                    "close": {
+                      "line": "u203.5",
+                      "odds": "-108"
+                    }
+                  }
+                },
+                "header": {
+                  "logo": {
+                    "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+                    "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+                    "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+                    "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+                  },
+                  "text": "Game Odds"
+                }
+              },
+              "fullStatus": {
+                "clock": 720.0,
+                "displayClock": "12:00",
+                "period": 4,
+                "displayPeriod": "4th",
+                "type": {
+                  "id": "3",
+                  "name": "STATUS_FINAL",
+                  "state": "post",
+                  "completed": true,
+                  "description": "Final",
+                  "detail": "Final",
+                  "shortDetail": "Final"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "13",
+                  "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+                  "uid": "s:40~l:46~t:13",
+                  "type": "team",
+                  "order": 1,
+                  "homeAway": "away",
+                  "winner": true,
+                  "displayName": "Los Angeles Lakers",
+                  "name": "Lakers",
+                  "abbreviation": "LAL",
+                  "location": "Los Angeles",
+                  "color": "552583",
+                  "alternateColor": "fdb927",
+                  "score": "98",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers",
+                      "text": "Clubhouse",
+                      "shortText": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/roster/_/name/lal/los-angeles-lakers",
+                      "text": "Roster",
+                      "shortText": "Roster",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/stats/_/name/lal/los-angeles-lakers",
+                      "text": "Statistics",
+                      "shortText": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/lal",
+                      "text": "Schedule",
+                      "shortText": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "photos",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/photos/_/name/lal",
+                      "text": "photos",
+                      "shortText": "photos",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "draftpicks",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/draft/teams/_/name/lal/los-angeles-lakers",
+                      "text": "Draft Picks",
+                      "shortText": "Draft Picks",
+                      "isExternal": false,
+                      "isPremium": true,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "transactions",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/transactions/_/name/lal",
+                      "text": "Transactions",
+                      "shortText": "Transactions",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "injuries",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/injuries/_/name/lal",
+                      "text": "Injuries",
+                      "shortText": "Injuries",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "depthchart",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/depth/_/name/lal",
+                      "text": "Depth Chart",
+                      "shortText": "Depth Chart",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "record": "53-29",
+                  "records": [],
+                  "group": "4",
+                  "recordStats": {
+                    "wins": {
+                      "value": 53.0
+                    },
+                    "losses": {
+                      "value": 29.0
+                    },
+                    "ties": {
+                      "value": 0.0
+                    },
+                    "OTWins": {
+                      "value": 0.0
+                    },
+                    "OTLosses": {
+                      "value": 0.0
+                    },
+                    "points": {
+                      "value": 12.0
+                    },
+                    "pointsFor": {
+                      "value": 9540.0
+                    },
+                    "pointsAgainst": {
+                      "value": 9395.0
+                    },
+                    "avgPointsFor": {
+                      "value": 116.34146118164062
+                    },
+                    "avgPointsAgainst": {
+                      "value": 114.57317352294922
+                    },
+                    "gamesPlayed": {
+                      "value": 82.0
+                    },
+                    "winPercent": {
+                      "value": 0.6463414430618286
+                    },
+                    "leagueWinPercent": {
+                      "value": 0.6346153616905212
+                    },
+                    "divisionWins": {
+                      "value": 10.0
+                    },
+                    "divisionLosses": {
+                      "value": 7.0
+                    },
+                    "divisionTies": {
+                      "value": 0.0
+                    },
+                    "divisionWinPercent": {
+                      "value": 0.5882353186607361
+                    },
+                    "streak": {
+                      "value": 3.0
+                    },
+                    "playoffSeed": {
+                      "value": 4.0
+                    },
+                    "gamesBehind": {
+                      "value": 11.0
+                    },
+                    "clincher": {
+                      "value": 2.0
+                    },
+                    "conferenceWins": {
+                      "value": 33.0
+                    },
+                    "conferenceLosses": {
+                      "value": 19.0
+                    },
+                    "conferenceTies": {
+                      "value": 0.0
+                    },
+                    "homeWins": {
+                      "value": 28.0
+                    },
+                    "homeLosses": {
+                      "value": 13.0
+                    },
+                    "homeTies": {
+                      "value": 0.0
+                    },
+                    "roadWins": {
+                      "value": 25.0
+                    },
+                    "roadLosses": {
+                      "value": 16.0
+                    },
+                    "roadTies": {
+                      "value": 0.0
+                    },
+                    "gamesAhead": {
+                      "value": 31.0
+                    }
+                  },
+                  "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+                  "logoDark": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/lal.png",
+                  "seriesRecord": "4-2"
+                },
+                {
+                  "id": "10",
+                  "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
+                  "uid": "s:40~l:46~t:10",
+                  "type": "team",
+                  "order": 0,
+                  "homeAway": "home",
+                  "winner": false,
+                  "displayName": "Houston Rockets",
+                  "name": "Rockets",
+                  "abbreviation": "HOU",
+                  "location": "Houston",
+                  "color": "ce1141",
+                  "alternateColor": "000000",
+                  "score": "78",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets",
+                      "text": "Clubhouse",
+                      "shortText": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/roster/_/name/hou/houston-rockets",
+                      "text": "Roster",
+                      "shortText": "Roster",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/stats/_/name/hou/houston-rockets",
+                      "text": "Statistics",
+                      "shortText": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/hou",
+                      "text": "Schedule",
+                      "shortText": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "photos",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/photos/_/name/hou",
+                      "text": "photos",
+                      "shortText": "photos",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "draftpicks",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/draft/teams/_/name/hou/houston-rockets",
+                      "text": "Draft Picks",
+                      "shortText": "Draft Picks",
+                      "isExternal": false,
+                      "isPremium": true,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "transactions",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/transactions/_/name/hou",
+                      "text": "Transactions",
+                      "shortText": "Transactions",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "injuries",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/injuries/_/name/hou",
+                      "text": "Injuries",
+                      "shortText": "Injuries",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "depthchart",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nba/team/depth/_/name/hou",
+                      "text": "Depth Chart",
+                      "shortText": "Depth Chart",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "record": "52-30",
+                  "records": [],
+                  "group": "10",
+                  "recordStats": {
+                    "wins": {
+                      "value": 52.0
+                    },
+                    "losses": {
+                      "value": 30.0
+                    },
+                    "ties": {
+                      "value": 0.0
+                    },
+                    "OTWins": {
+                      "value": 0.0
+                    },
+                    "OTLosses": {
+                      "value": 0.0
+                    },
+                    "points": {
+                      "value": 11.0
+                    },
+                    "pointsFor": {
+                      "value": 9449.0
+                    },
+                    "pointsAgainst": {
+                      "value": 9021.0
+                    },
+                    "avgPointsFor": {
+                      "value": 115.23170471191406
+                    },
+                    "avgPointsAgainst": {
+                      "value": 110.01219177246094
+                    },
+                    "gamesPlayed": {
+                      "value": 82.0
+                    },
+                    "winPercent": {
+                      "value": 0.6341463327407837
+                    },
+                    "leagueWinPercent": {
+                      "value": 0.557692289352417
+                    },
+                    "divisionWins": {
+                      "value": 10.0
+                    },
+                    "divisionLosses": {
+                      "value": 6.0
+                    },
+                    "divisionTies": {
+                      "value": 0.0
+                    },
+                    "divisionWinPercent": {
+                      "value": 0.625
+                    },
+                    "streak": {
+                      "value": 1.0
+                    },
+                    "playoffSeed": {
+                      "value": 5.0
+                    },
+                    "gamesBehind": {
+                      "value": 12.0
+                    },
+                    "clincher": {
+                      "value": 1.0
+                    },
+                    "conferenceWins": {
+                      "value": 29.0
+                    },
+                    "conferenceLosses": {
+                      "value": 23.0
+                    },
+                    "conferenceTies": {
+                      "value": 0.0
+                    },
+                    "homeWins": {
+                      "value": 30.0
+                    },
+                    "homeLosses": {
+                      "value": 11.0
+                    },
+                    "homeTies": {
+                      "value": 0.0
+                    },
+                    "roadWins": {
+                      "value": 22.0
+                    },
+                    "roadLosses": {
+                      "value": 19.0
+                    },
+                    "roadTies": {
+                      "value": 0.0
+                    },
+                    "gamesAhead": {
+                      "value": 30.0
+                    }
+                  },
+                  "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+                  "logoDark": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/hou.png",
+                  "seriesRecord": "2-4"
+                }
+              ],
+              "neutralSite": false,
+              "onDisneyNetwork": false,
+              "video": {
+                "id": 48652834,
+                "dataSourceIdentifier": "fafef87b9c79c",
+                "cerebroId": "69f57e3ca8bf55036d00b4bb",
+                "pccId": "ba04107e-40f8-4867-8f43-ea349a5c0894",
+                "source": "espn",
+                "headline": "Los Angeles Lakers vs. Houston Rockets: Game Highlights",
+                "shortHeadline": "Los Angeles Lakers vs. Houston Rockets: Game Highlights",
+                "caption": "Los Angeles Lakers vs. Houston Rockets: Game Highlights",
+                "title": "Los Angeles Lakers vs. Houston Rockets: Game Highlights",
+                "description": "Los Angeles Lakers vs. Houston Rockets: Game Highlights",
+                "shortDescription": "Los Angeles Lakers vs. Houston Rockets: Game Highlights",
+                "lastModified": "2026-05-02T04:34:47Z",
+                "originalPublishDate": "2026-05-02T04:31:57Z",
+                "premium": false,
+                "syndicatable": true,
+                "duration": 82,
+                "videoRatio": "16:9,9:16",
+                "timeRestrictions": {
+                  "embargoDate": "2026-05-02T04:31:45Z",
+                  "expirationDate": "2026-07-31T04:00:00Z"
+                },
+                "deviceRestrictions": {
+                  "type": "whitelist",
+                  "devices": [
+                    "settop",
+                    "tablet",
+                    "handset",
+                    "ipad",
+                    "desktop"
+                  ]
+                },
+                "geoRestrictions": {
+                  "type": "whitelist",
+                  "countries": [
+                    "PR",
+                    "HN",
+                    "PW",
+                    "PY",
+                    "HT",
+                    "IE",
+                    "AG",
+                    "ZA",
+                    "AI",
+                    "AM",
+                    "AO",
+                    "AR",
+                    "AS",
+                    "RE",
+                    "ZM",
+                    "AU",
+                    "AW",
+                    "ZW",
+                    "BB",
+                    "JM",
+                    "BF",
+                    "RW",
+                    "BI",
+                    "BJ",
+                    "BM",
+                    "BO",
+                    "BQ",
+                    "SC",
+                    "BR",
+                    "BS",
+                    "BW",
+                    "BZ",
+                    "SL",
+                    "KE",
+                    "SN",
+                    "SR",
+                    "SS",
+                    "ST",
+                    "CD",
+                    "KM",
+                    "SV",
+                    "CF",
+                    "KN",
+                    "CG",
+                    "SX",
+                    "CI",
+                    "SZ",
+                    "CL",
+                    "CM",
+                    "CO",
+                    "KY",
+                    "TC",
+                    "CR",
+                    "CU",
+                    "CV",
+                    "TG",
+                    "LC",
+                    "TT",
+                    "TZ",
+                    "LR",
+                    "LS",
+                    "DO",
+                    "UG",
+                    "UK",
+                    "UM",
+                    "MF",
+                    "MG",
+                    "MH",
+                    "EC",
+                    "US",
+                    "ML",
+                    "MP",
+                    "MQ",
+                    "UY",
+                    "MS",
+                    "MU",
+                    "MW",
+                    "MX",
+                    "ER",
+                    "VC",
+                    "MZ",
+                    "VE",
+                    "ET",
+                    "VG",
+                    "NA",
+                    "VI",
+                    "NE",
+                    "NG",
+                    "NI",
+                    "FJ",
+                    "FM",
+                    "NZ",
+                    "GA",
+                    "GB",
+                    "GD",
+                    "GF",
+                    "GH",
+                    "GM",
+                    "GN",
+                    "GP",
+                    "GQ",
+                    "GT",
+                    "GU",
+                    "GW",
+                    "PA",
+                    "GY",
+                    "PE",
+                    "PH"
+                  ]
+                },
+                "gameId": 401869409,
+                "plays": [
+                  {
+                    "id": 40186940965
+                  }
+                ],
+                "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352.jpg",
+                "images": [
+                  {
+                    "name": "Poster Image",
+                    "caption": "",
+                    "alt": "",
+                    "credit": "",
+                    "height": 324,
+                    "width": 576,
+                    "url": "https://media.video-cdn.espn.com/images/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352.jpg"
+                  }
+                ],
+                "posterImages": {
+                  "default": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352_default.jpg",
+                    "width": 576,
+                    "height": 324
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352.jpg"
+                  },
+                  "wide": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352_5x2.jpg"
+                  },
+                  "square": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352_1x1.jpg"
+                  },
+                  "vertical": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352_9x16.jpg"
+                  },
+                  "verticalFirstFrame": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/img/espn/9x16/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352/thumb-1-w406-h720-f4.jpg"
+                  }
+                },
+                "links": {
+                  "web": {
+                    "href": "https://www.espn.com/video/clip?id=48652834",
+                    "self": {
+                      "href": "https://www.espn.com/video/clip?id=48652834",
+                      "dsi": {
+                        "href": "https://www.espn.com/video/clip?id=fafef87b9c79c"
+                      }
+                    }
+                  },
+                  "mobile": {
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352.mp4"
+                    },
+                    "alert": {
+                      "href": "https://m.espn.com/general/video/videoAlert?vid=48652834"
+                    },
+                    "streaming": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ba04107e-40f8-4867-8f43-ea349a5c0894/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48652834"
+                    },
+                    "progressiveDownload": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ba04107e-40f8-4867-8f43-ea349a5c0894/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48652834"
+                    }
+                  },
+                  "api": {
+                    "self": {
+                      "href": "https://content.core.api.espn.com/v1/video/clips/48652834"
+                    },
+                    "artwork": {
+                      "href": "https://artwork.api.espn.com/artwork/collections/media/ba04107e-40f8-4867-8f43-ea349a5c0894"
+                    }
+                  },
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352_360p30_1464k.mp4",
+                    "mezzanine": {
+                      "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352.mp4"
+                    },
+                    "flash": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352.smil"
+                    },
+                    "hds": {
+                      "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352_rel.smil/manifest.f4m"
+                    },
+                    "HLS": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352/playlist.m3u8",
+                      "HD": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352/playlist.m3u8"
+                      },
+                      "cmaf": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352/playlist.m3u8"
+                        }
+                      },
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352/playlist.m3u8"
+                      },
+                      "shield": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/media/ba04107e-40f8-4867-8f43-ea349a5c0894/asset"
+                      }
+                    },
+                    "HD": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352_720p30_2896k.mp4"
+                    },
+                    "full": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0502/d706af84-453a-4877-966a-a0ad9d33a352/d706af84-453a-4877-966a-a0ad9d33a352_360p30_1464k.mp4"
+                    }
+                  },
+                  "sportscenter": {
+                    "href": "sportscenter://x-callback-url/showVideo?videoID=48652834&videoDSI=fafef87b9c79c"
+                  }
+                },
+                "categories": [
+                  {
+                    "id": 4517,
+                    "type": "team",
+                    "uid": "s:40~l:46~t:10",
+                    "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
+                    "description": "Houston Rockets",
+                    "sportId": 46,
+                    "teamId": 10,
+                    "team": {
+                      "id": 10,
+                      "description": "Houston Rockets",
+                      "links": {
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+                          }
+                        },
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 4630,
+                    "type": "team",
+                    "uid": "s:40~l:46~t:13",
+                    "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+                    "description": "Los Angeles Lakers",
+                    "sportId": 46,
+                    "teamId": 13,
+                    "team": {
+                      "id": 13,
+                      "description": "Los Angeles Lakers",
+                      "links": {
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                          }
+                        },
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 187381,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:4278129",
+                    "guid": "9af41ea8-a24c-025f-a63f-8263fbf0ca66",
+                    "description": "Deandre Ayton",
+                    "sportId": 46,
+                    "athleteId": 4278129,
+                    "athlete": {
+                      "id": 4278129,
+                      "description": "Deandre Ayton",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4278129/deandre-ayton"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4278129/deandre-ayton"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 128809,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:2990992",
+                    "guid": "f5096a5b-cbc5-1d7f-d406-56c623c434e5",
+                    "description": "Marcus Smart",
+                    "sportId": 46,
+                    "athleteId": 2990992,
+                    "athlete": {
+                      "id": 2990992,
+                      "description": "Marcus Smart",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/2990992/marcus-smart"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/2990992/marcus-smart"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 9577,
+                    "type": "league",
+                    "uid": "s:40~l:46",
+                    "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+                    "description": "NBA",
+                    "sportId": 46,
+                    "leagueId": 46,
+                    "league": {
+                      "id": 46,
+                      "description": "NBA",
+                      "abbreviation": "NBA",
+                      "links": {
+                        "web": {
+                          "leagues": {
+                            "href": "https://www.espn.com/nba/"
+                          }
+                        },
+                        "mobile": {
+                          "leagues": {
+                            "href": "https://www.espn.com/nba/"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 9385,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:1966",
+                    "guid": "1f6592b3-ff53-d321-8dc5-6038d48c1786",
+                    "description": "LeBron James",
+                    "sportId": 46,
+                    "athleteId": 1966,
+                    "athlete": {
+                      "id": 1966,
+                      "description": "LeBron James",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 384217,
+                    "type": "athlete",
+                    "uid": "s:40~l:46~a:4066648",
+                    "guid": "40c1bcf6-675b-f217-f97c-1d628073f927",
+                    "description": "Rui Hachimura",
+                    "sportId": 46,
+                    "athleteId": 4066648,
+                    "athlete": {
+                      "id": 4066648,
+                      "description": "Rui Hachimura",
+                      "links": {
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura"
+                          }
+                        },
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 409228,
+                    "type": "topic",
+                    "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
+                    "description": "fantasy",
+                    "sportId": 0,
+                    "topicId": 785
+                  },
+                  {
+                    "id": 191422,
+                    "type": "topic",
+                    "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
+                    "description": "nba highlight",
+                    "sportId": 0,
+                    "topicId": 707
+                  },
+                  {
+                    "id": 12025,
+                    "type": "league",
+                    "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+                    "description": "Fantasy NBA",
+                    "sportId": 0,
+                    "leagueId": 3090,
+                    "league": {
+                      "id": 3090,
+                      "description": "Fantasy NBA"
+                    }
+                  },
+                  {
+                    "id": 711821,
+                    "type": "editorialindicator",
+                    "guid": "f3e05446-8d07-3064-a239-c10c32884ea2",
+                    "description": "SC4U - Full Highlight"
+                  },
+                  {
+                    "id": 711824,
+                    "type": "editorialindicator",
+                    "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26",
+                    "description": "SC4U  - Eligible"
+                  },
+                  {
+                    "type": "event",
+                    "uid": "s:40~l:46~e:401869409",
+                    "guid": "490d2dc0-c21c-36e1-b29e-b91cbf91c333",
+                    "description": "Los Angeles Lakers @ Houston Rockets",
+                    "eventId": 401869409,
+                    "event": {
+                      "id": 401869409,
+                      "sport": "basketball",
+                      "league": "nba",
+                      "description": "Los Angeles Lakers @ Houston Rockets",
+                      "links": {
+                        "web": {
+                          "event": {
+                            "href": "https://www.espn.com/nba/game/_/gameId/401869409"
+                          }
+                        },
+                        "mobile": {
+                          "event": {
+                            "href": "https://www.espn.com/nba/game/_/gameId/401869409"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "9af41ea8-a24c-025f-a63f-8263fbf0ca66"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "f5096a5b-cbc5-1d7f-d406-56c623c434e5"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "1f6592b3-ff53-d321-8dc5-6038d48c1786"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "40c1bcf6-675b-f217-f97c-1d628073f927"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "f3e05446-8d07-3064-a239-c10c32884ea2"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26"
+                  },
+                  {
+                    "type": "guid",
+                    "guid": "490d2dc0-c21c-36e1-b29e-b91cbf91c333"
+                  }
+                ],
+                "ad": {
+                  "sport": "nba",
+                  "bundle": "nba_longform_highlights"
+                },
+                "tracking": {
+                  "sportName": "basketball",
+                  "leagueName": "NBA",
+                  "coverageType": "Final Game Highlight",
+                  "trackingName": "COM_NBA Highlight (Los Angeles Lakers vs. Houston Rockets: Game Highlights) 2026/05/02 ESHEET SOTFULL",
+                  "trackingId": "dm_20260502_NBA_los_angeles_lakers_vs_houston_rockets_game_highlights",
+                  "program": "NBA"
+                },
+                "contributingPartner": "wsc",
+                "contributingSystem": "wsc"
+              },
+              "appLinks": [
+                {
+                  "rel": [
+                    "summary",
+                    "sportscenter",
+                    "app",
+                    "event"
+                  ],
+                  "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401869409",
+                  "text": "Gamecast",
+                  "shortText": "Summary"
+                },
+                {
+                  "rel": [
+                    "boxscore",
+                    "sportscenter",
+                    "app",
+                    "event"
+                  ],
+                  "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401869409",
+                  "text": "Box Score",
+                  "shortText": "Box Score"
+                },
+                {
+                  "rel": [
+                    "gamecast",
+                    "sportscenter",
+                    "app",
+                    "event"
+                  ],
+                  "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401869409",
+                  "text": "Gamecast",
+                  "shortText": "Gamecast"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

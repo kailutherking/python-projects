@@ -1,0 +1,155 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  # ── Quality gate: lint + format (~20s) ──────────────────────
+  quality:
+    name: Code Quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - run: uv sync --frozen
+
+      - name: Ruff lint
+        uses: astral-sh/ruff-action@v3
+        with:
+          args: "check"
+
+      - name: Ruff format check
+        uses: astral-sh/ruff-action@v3
+        with:
+          args: "format --check"
+
+  # ── Type checks (ty + pyright) ─────────────────────────────
+  typecheck:
+    name: Type Check
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - run: uv sync --frozen
+
+      - name: Ty (fast, experimental)
+        continue-on-error: true
+        run: uv run ty check
+
+      - name: Pyright
+        run: uv run pyright
+
+  # ── Security audit ─────────────────────────────────────────
+  security:
+    name: Security Audit
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - run: uv sync --frozen
+
+      - name: Run pip-audit
+        run: uv run --with pip-audit pip-audit --desc --progress-spinner off
+
+  # ── Dependency review (PRs only, independent of quality gate) ──
+  dependency-review:
+    name: Dependency Review
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: moderate
+
+  # ── Tests with coverage ────────────────────────────────────
+  test:
+    name: Tests
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - run: uv sync --frozen
+
+      - name: Run tests with coverage
+        run: |
+          uv run pytest \
+            --cov \
+            --cov-report=term-missing \
+            --cov-report=xml \
+            --cov-report=html \
+            --cov-fail-under=65 \
+            --junitxml=test-results.xml \
+            -q
+
+      - name: Surface test results
+        if: always()
+        uses: pmeier/pytest-results-action@v0.9.0
+        with:
+          path: test-results.xml
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: coverage-report
+          path: |
+            coverage.xml
+            htmlcov/
+          include-hidden-files: true
+
+  # ── CI status summary (required branch protection gate) ────
+  ci-status:
+    name: CI Status
+    if: always()
+    needs: [quality, typecheck, security, test]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check all jobs passed
+        run: |
+          if [[ "${{ needs.quality.result }}" == "success" && \
+                "${{ needs.typecheck.result }}" == "success" && \
+                "${{ needs.security.result }}" == "success" && \
+                "${{ needs.test.result }}" == "success" ]]; then
+            echo "All CI jobs passed ✅"
+            exit 0
+          else
+            echo "One or more CI jobs failed ❌"
+            echo "quality: ${{ needs.quality.result }}"
+            echo "typecheck: ${{ needs.typecheck.result }}"
+            echo "security: ${{ needs.security.result }}"
+            echo "test: ${{ needs.test.result }}"
+            exit 1
+          fi

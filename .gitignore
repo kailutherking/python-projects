@@ -1,4 +1,5 @@
 # Virtual Environment
+.venv/
 venv/
 env/
 ENV/
@@ -12,6 +13,9 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# uv
+.python-version
 
 # IDE
 .vscode/
@@ -28,3 +32,26 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Dev tooling
+.sisyphus/
+
+# Historical root fixture dumps
+/fixtures/
+
+# Large backend HTML snapshots; keep required regression fixtures tracked explicitly
+src/backend/fixtures/*.html
+!src/backend/fixtures/dk-game-lines.html
+
+# Temp diff artifacts
+*pr_diff*.txt

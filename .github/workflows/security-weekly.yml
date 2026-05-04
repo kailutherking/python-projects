@@ -1,0 +1,26 @@
+name: Weekly Security Audit
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Monday 06:00 UTC
+  workflow_dispatch: # manual trigger
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: Full Dependency Audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - run: uv sync --frozen
+
+      - name: Run pip-audit
+        run: uv run --with pip-audit pip-audit --desc --progress-spinner off

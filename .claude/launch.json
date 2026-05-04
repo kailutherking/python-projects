@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "NiceGUI Dev Server",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "python", "-m", "frontend.gui.main"],
+      "port": 8080
+    }
+  ]
+}

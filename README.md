@@ -1,159 +1,208 @@
-# 🏀 Sports Analytics - NBA Odds Scraper & Expected Value Calculator
+# 🏀 NBA Odds Scraper & Expected Value Calculator
 
-A complete Python project for scraping real NBA odds from multiple sportsbooks and calculating expected value for sports bets.
+A Python project for scraping NBA odds from multiple sportsbooks and calculating expected value for sports bets.
+
+[![CI](https://github.com/nickth3man/odds-scraper/actions/workflows/ci.yml/badge.svg)](https://github.com/nickth3man/odds-scraper/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/badge/coverage-80%25-brightgreen)](https://github.com/nickth3man/odds-scraper/actions/workflows/ci.yml)
 
 ## 📊 Features
 
-- **Odds Scraper**: Collects live odds from ESPN and DraftKings
-- **Odds Comparison**: Finds the best lines across multiple sportsbooks
-- **Expected Value Calculator**: Identifies profitable betting opportunities
-- **Power BI Integration**: Export data for visualization and analysis
-- **Real-time Data**: Scrapes current playoff and regular season games
+- **NiceGUI Dashboard** — Browser-based GUI for live odds with always-on EV/100 analysis (`python -m frontend.gui.main`)
+- **Sample Odds Scraper** — Multi-sportsbook odds collection (ESPN, DraftKings, FanDuel)
+- **Live Odds Scraper** — Real-time scraping from ESPN's JSON API + DraftKings via Selenium
+- **TLS Impersonation** — `curl_cffi` browser fingerprinting bypasses bot-detection on protected endpoints
+- **Fast JSON Parsing** — `orjson` replaces stdlib `json` for faster response deserialization
+- **HTML Parsing** — `parsel` CSS-selector parser extracts DraftKings odds without chained Selenium queries
+- **Unified Schema** — `OddsComparison` accepts output from both scrapers transparently
+- **Odds Comparison** — Find the best lines across sportsbooks with correct American odds logic
+- **Expected Value Calculator** — Identify profitable betting opportunities using American odds math
+- **Kelly Criterion** — Optimal bet sizing for bankroll management
+- **CSV Export** — Power BI-ready data files
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- **Python 3.9+**
-- **BeautifulSoup4** - Web scraping
-- **Selenium** - Browser automation for DraftKings
-- **Pandas** - Data manipulation
-- **Requests** - HTTP requests
+| Tool                | Purpose                                          |
+| ------------------- | ------------------------------------------------ |
+| Python **3.12+**    | Runtime                                          |
+| **uv**              | Package manager                                  |
+| **ruff**            | Linter + formatter                               |
+| **ty**              | Fast type checker                                |
+| **pyright**         | Static type checker                              |
+| nicegui             | Browser-based GUI dashboard                      |
+| selenium            | Browser automation (DraftKings)                  |
+| httpx               | Async-capable HTTP client with retry logic       |
+| curl-cffi           | TLS fingerprint impersonation (anti-bot bypass)  |
+| orjson              | Fast JSON serialization/deserialization          |
+| parsel              | CSS/XPath HTML parsing (Scrapy-style)            |
+| tenacity            | Retry logic with exponential backoff             |
+| fake-useragent      | Rotating User-Agent strings                      |
+| courlan             | Domain extraction for per-domain rate limiting   |
+| pandas              | Data manipulation & CSV export                   |
+| pytest              | Testing framework                                |
 
 ## 📁 Project Structure
 
-sports-analytics/ ├── odds_scraping/ │ ├── odds_scraper.py # Scrapes sample odds │ ├── odds_comparison.py # Compares odds across books │ └── live_odds_scraper.py # Scrapes LIVE ESPN & DraftKings ├── models/ │ └── ev_calculator.py # Expected Value calculations ├── data/ │ ├── sample_odds_data.csv │ └── nba_standings_2025_26.csv ├── example_usage.py # Sample scraper example ├── live_example.py # Live odds example ├── config.json # Configuration ├── requirements.txt # Dependencies └── README.md # This file
+```
+odds-scraper/
+├── src/
+│   ├── frontend/
+│   │   └── gui/
+│   │       ├── main.py          # NiceGUI entry point (python -m frontend.gui.main → localhost:8080)
+│   │       └── pages/
+│   │           ├── home.py      # Landing page with navigation
+│   │           └── live_odds.py # Live odds table (ESPN + DraftKings + EV/100)
+│   └── backend/
+│       ├── odds_scraping/
+│       │   ├── __init__.py
+│       │   ├── odds_scraper.py          # Sample odds data provider
+│       │   ├── odds_comparison.py       # Cross-sportsbook comparison (unified schema)
+│       │   ├── http_client.py           # Resilient HTTP client (retry, rate-limit, UA rotation)
+│       │   ├── parsers.py               # Shared odds parsing/formatting helpers
+│       │   ├── espn_scraper.py          # ESPN JSON API adapter + scoreboard fallback
+│       │   ├── draftkings_scraper.py    # DraftKings Selenium/parsel source adapter
+│       │   └── live_odds_scraper.py     # Thin live scraper orchestrator
+│       ├── models/
+│       │   └── ev_calculator.py         # Expected Value & Kelly Criterion
+│       └── fixtures/                    # HTML/JSON fixtures for offline tests
+├── data/
+│   ├── sample_odds_data.csv
+│   ├── odds_comparison_results.csv
+│   └── nba_standings_2025_26.csv
+├── tests/                       # pytest test suite (62 tests)
+├── .claude/
+│   └── launch.json              # Dev server configurations
+├── config.json                  # Sportsbook configuration
+├── pyproject.toml               # Project metadata & tool config
+├── uv.lock                      # Dependency lock file
+└── README.md
+```
 
 ## 🚀 Quick Start
 
-### Installation
+### Prerequisites
 
-1. Clone the repository
+- Python 3.12+
+- [uv](https://docs.astral.sh/uv/) (package manager)
+- Chrome (for DraftKings live scraping — Selenium Manager auto-downloads ChromeDriver)
+
+### Setup
 
 ```bash
-git clone https://github.com/yourusername/python-projects-.git
-cd sports-analytics
+# Clone and enter the project
+git clone https://github.com/yourusername/odds-scraper.git
+cd odds-scraper
 
-2. Create Virtual Envirnoment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# Install all dependencies (creates .venv + uv.lock)
+uv sync
 
-3. Install Dependencies
-pip install -r requirements.txt
+# Run quality checks
+uv run pytest
+```
 
-Usages:
- Run sample odds scrapper
-python3 example_usage.py
+### GUI Dashboard
 
-Scrape LIVE odds from ESPN & DraftKings:
-python3 live_example.py
+```bash
+python -m frontend.gui.main
+# Open http://localhost:8080
+```
 
-Sample Output:
-OKC Thunder @ Boston Celtics
-  Spread: -7.5
-  Moneyline: -175
-  Over/Under: 214.5
+- **`/`** — Home: navigate to Live Odds
+- **`/odds`** — Scrape ESPN and/or DraftKings odds into a searchable table with EV/100 analysis
 
-Expected Value Calculation:
-Team: OKC Thunder
-Model Probability: 78.0%
-Sportsbook Probability: 72.0%
-EV per $100: $12.50
-Recommendation: ✅ BET (Positive EV)
+### Quality Checks
 
-How It Works
+```bash
+uv run ruff format .         # Format
+uv run ruff format --check . # Check formatting
+uv run ruff check .          # Lint
+uv run ruff check --fix      # Auto-fix safe lint issues
+uv run ty check              # Fast type check
+uv run pyright               # Static type check
+uv run pytest                # Run tests (65 tests)
+```
 
-1. Scrape Odds
 
-Collects odds from ESPN using BeautifulSoup
-Scrapes DraftKings using Selenium (JavaScript rendering)
-Supports moneyline, spread, and over/under
-2. Compare Odds
+## ⚙️ Configuration
 
-Finds best odds across all sportsbooks
-Identifies line discrepancies
-Exports to CSV
-3. Calculate Expected Value
-
-Converts American odds to implied probability
-Compares model predictions to sportsbook odds
-Calculates EV and ROI
-Applies Kelly Criterion for bankroll management
-4. Export to Power BI
-
-CSV files ready for visualization
-Create dashboards of odds comparisons
-Track ROI over time
-💡 Use Cases
-
-Identify +EV Bets: Find bets where your model gives better probability than the sportsbook
-Line Shopping: Compare odds across multiple books to get the best value
-Portfolio Tracking: Monitor your betting performance over time
-Data Analysis: Analyze historical odds and outcomes
-📈 Power BI Integration
-
-Open Power BI Desktop
-Click Get Data → Text/CSV
-Select data/live_odds_all_sources.csv
-Create visualizations:
-Best odds by sportsbook
-Spread comparison charts
-Over/under trends
-
-Example Analysis
-from odds_scraping.live_odds_scraper import LiveOddsScraper
-from models.ev_calculator import EVCalculator
-
-# Scrape live odds
-scraper = LiveOddsScraper()
-games = scraper.get_all_games()
-
-# Calculate expected value
-ev_calc = EVCalculator()
-result = ev_calc.evaluate_bet(
-    team="OKC Thunder",
-    model_prob=0.78,  # Your prediction
-    american_odds=-175,  # Sportsbook odds
-    stake=100
-)
-
-print(result)
-# Output:
-# {
-#   'team': 'OKC Thunder',
-#   'model_prob': '78.0%',
-#   'book_prob': '71.4%',
-#   'ev_per_stake': '$12.50',
-#   'recommendation': '✅ BET'
-# }
-Configuration:
+```json
 {
   "sportsbooks": {
-    "espn": {"enabled": true},
-    "draftkings": {"enabled": true},
-    "fanduel": {"enabled": true}
+    "espn": { "enabled": true },
+    "draftkings": { "enabled": true },
+    "fanduel": { "enabled": true }
   }
-Important Notes:
-Legal: Web scraping odds is legal in most jurisdictions
-Rate Limiting: Don't make too many requests in short time
-Terms of Service: Check each site's ToS before scraping
-No Betting Required: This is analytical, not gambling advice
+}
+```
 
-Future Enhancements:
-Add more sportsbooks (FanDuel, BetMGM, etc.)
- Implement multi-sport support (NFL, MLB, NHL)
- Add backtesting framework
- Create web dashboard
- Machine learning win probability model
- Automated daily scraping schedule
+## 🧪 Development
 
-Contributing:
-Found a bug or want to improve it? Feel free to:
+### Toolchain
 
-Fork the repo
-Create a feature branch
-Submit a pull request
+| Command                | What it does                 |
+| ---------------------- | ---------------------------- |
+| `uv sync`                   | Install all dependencies        |
+| `uv run ruff format .`      | Auto-format code                |
+| `uv run ruff format --check .` | Check formatting             |
+| `uv run ruff check .`       | Lint the codebase               |
+| `uv run ty check`           | Fast type check                 |
+| `uv run pyright`            | Static type check               |
+| `uv run pytest`             | Run 65 tests                    |
+| `uv lock --upgrade`         | Update all deps to latest       |
 
-Questions or suggestions? Reach out!
+Dependencies use `>=` constraints in `pyproject.toml`. Exact versions are pinned in `uv.lock` (commit this file).
 
-Built with ❤️ for sports analytics enthusiasts
+### Architecture
 
 ```
+LiveOddsScraper
+├── scrape_espn_nba_odds()       delegates to EspnOddsScraper
+├── scrape_draftkings_odds()     delegates to DraftKingsScraper
+├── parse_draftkings_html()      compatibility wrapper for offline HTML parsing
+└── get_all_games()              orchestrates ESPN + DraftKings and displays results
+
+EspnOddsScraper
+├── scrape_nba_odds()            ESPN header API → JSON
+├── scrape_scoreboard_fallback() ESPN scoreboard fallback
+├── parse_header_events()        normalize header API events
+└── parse_scoreboard_events()    normalize scoreboard API events
+
+DraftKingsScraper
+├── scrape_odds()                Selenium page load and browser lifecycle
+└── parse_games()                parser fallback chain
+    ├── parse_html()             parsel path (fast, testable) ← preferred
+    ├── parse_cb_market()        Selenium cb-market path
+    └── parse_event_cells()      Selenium legacy fallback
+
+HttpClient
+├── get()                        httpx + tenacity retry + per-domain rate limiting + UA rotation
+└── get_json()                   orjson fast parse; curl_cffi impersonation when impersonate= set
+
+OddsComparison
+└── find_best_odds()             _normalize_game() maps both scraper schemas → unified view
+```
+
+### External Data Caveats
+
+- **Sportsbook pages can change**: DraftKings selectors are parsed defensively with three fallback layers (parsel → cb-market Selenium → event-cell Selenium), but DOM changes or geo/bot gating can still hide odds
+- **ESPN odds endpoints are unofficial**: The live scraper calls ESPN's header API first and falls back to the scoreboard API with the same normalized output schema; both endpoints can change without notice
+- **curl_cffi impersonation**: Effective against TLS fingerprint checks, not against login walls or account-based rate limits
+
+## 📈 Future Enhancements
+
+- [ ] Add more sportsbooks (BetMGM, PointsBet)
+- [ ] Backtesting framework
+- [x] Web dashboard with live EV/100 analysis (NiceGUI — `src/frontend/gui/`)
+- [ ] Machine learning win probability model
+- [ ] Automated daily scraping schedule
+- [ ] Playwright network interception replacing Selenium
+
+## ⚠️ Important Notes
+
+- **Legal**: Web scraping odds is legal in most jurisdictions — check local laws
+- **Rate Limiting**: The `HttpClient` enforces per-domain minimum delays automatically
+- **Terms of Service**: Review each site's ToS before scraping
+Found a bug or want to improve it? PRs welcome — just make sure `uv run ruff format --check .`, `uv run ruff check .`, `uv run ty check`, `uv run pyright`, and `uv run pytest` pass.
+
+---
+
+Built with ❤️ for sports analytics enthusiasts
